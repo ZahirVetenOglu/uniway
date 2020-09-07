@@ -1,0 +1,103 @@
+nav{
+    background-color: #190f6e;
+}
+.fab,.fas{
+    color: white;
+}
+nav span{
+    margin-right: 20px;
+} 
+
+.card-img-overlay h1{
+    font-size: 25px;
+}
+.card-img-overlay{
+    position: absolute;
+    left: 60px;
+    top: 165px;
+}
+.come{
+    margin-left: -17px;
+    margin-top: -2px;
+}
+.usthab{
+   height: 300px;
+   width: 486px;
+}
+.ust{
+    height: 300px;
+}
+.ustsag{
+    margin-left: -30px;   
+}
+.cola{
+    font-size: 30px;
+}
+.cola1{
+    text-decoration: none !important;
+}
+.scrolist{
+    height: 500px !important;
+    overflow: scroll !important;
+    width: 400px !important;
+  }
+  .vorm{
+      margin-left: -30px !important;
+  }
+  .mor{
+      width: 650px !important;
+      
+  }
+  .aztu{
+      position: absolute;
+      margin-top: 385px;
+      width: 600px !important;
+  }
+
+.texniki{
+    position: absolute;
+    margin-top: 310px;
+    width: 400px !important;
+}
+.adnsu{
+    position: absolute;
+    margin-top: 390px;
+    width: 600px !important;
+    height: 300px !important;
+}
+.duz{
+    margin-left: -30px !important;
+    margin-top: 30px !important;
+}
+
+.duz1{
+    margin-top: 30px !important;
+}
+.trt1{
+    margin-left: 30px !important;
+}
+.trt2{
+ 
+    margin-left: 90px;
+}
+
+.kosmos{
+    position: absolute;
+    margin-top: -430px;
+    margin-left: 307px;
+    color: whitesmoke;
+     font-size: 70px;
+}
+
+
+.kosmos1{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 449px;
+    color: whitesmoke;
+
+}
+
+.sumo{
+    margin-top: 110px;
+}

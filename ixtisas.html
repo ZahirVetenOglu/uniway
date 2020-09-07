@@ -1,0 +1,2443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<style>
+ body{
+     background-color: rgba(128, 128, 128, 0.685);
+ }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <div class="logo">
+                <img class="navbar-brand mt-2" src="img/logo0.PN" width="70px" alt="">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menuac">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <img src="img/logo0.PNG" width="70px" alt="">
+        <div class="container">
+        <div class="collapse navbar-collapse navbar-expand-lg" id="menuac">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a style="font-weight: 700;" href="index.html" class="nav-link mr-4 btn btn-outline-primary text-white"><i class="fas fa-home"></i>Home</a></li>
+                <div class="btn-group">
+                  <button type="button"  class="btn btn-outline-primary text-white mx-2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  ><i class="far fa-id-card"></i> Əlaqə</button>
+                  <div class="dropdown-menu mor py-4 px-2">
+                      <textarea class="trt1" name="" id="" placeholder="Mesaj..." cols="60" rows="5"></textarea>
+                      <hr>
+                     <label class="ml-4" for="combo">Email:</label>
+                     <input type="email" name="email" class="border border-primary py-2 ml-1" placeholder="email adress..." id="combo">
+                     <hr>
+                     <label class="ml-3" for="combo1">Telefon:</label>
+                     <input type="number" name="number" class="border border-primary py-2" placeholder="+994" id="combo1">
+                     <hr>
+                     <button type="button" class="btn btn-outline-primary trt2">Gonder</button>
+                  </div>
+                  </div>
+                  <a href="#git1" class="btn btn-outline-primary text-white mr-2"><i class="fas fa-archway"></i> Haqqımızda</a>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary text-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-university"></i> Universitetlər
+                      </button>
+
+                      <div class="dropdown-menu scrolist">
+                        <a class="dropdown-item" href="#">1. Bakı Dövlət Universiteti</a>
+                        <a class="dropdown-item" href="#">2. Azərbaycan Dövlət Neft və Sənaye Universiteti</a>
+                        <a class="dropdown-item" href="#">3. Azərbaycan Texniki Universiteti</a>
+                        <a class="dropdown-item" href="#">.4 Azərbaycan Dövlət İqtisad Universiteti</a>
+                        <a class="dropdown-item" href="#">5. Azərbaycan Dövlət Pedaqoji Universiteti</a>
+                        <a class="dropdown-item" href="#">6.Azərbaycan Memarlıq və İnşaat Universiteti</a>
+                        <a class="dropdown-item" href="#">7. Bakı Slavyan Universiteti</a>
+                        <a class="dropdown-item" href="#">8. Azərbaycan Dillər Universiteti</a>
+                        <a class="dropdown-item" href="#">9. Bakı Mühəndislik Universiteti</a>
+                        <a class="dropdown-item" href="#">10. Üzeyir Hacıbəyli adına Bakı Musiqi Akademiyası</a>
+                        <a class="dropdown-item" href="#">11. Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti</a>
+                        <a class="dropdown-item" href="#">12. Sumqayıt Dövlət Universiteti</a>
+                        <a class="dropdown-item" href="#">13. Lənkəran Dövlət Universiteti</a>
+                        <a class="dropdown-item" href="#">14. Gəncə Dövlət Universiteti</a>
+                        <a class="dropdown-item" href="#">15. Azərbaycan Texnologiya Universiteti</a>
+                        <a class="dropdown-item" href="#">16. Mingəçevir Dövlət Universiteti</a>
+                        <a class="dropdown-item" href="#">17. Naxçıvan Dövlət Universiteti</a>
+                        <a class="dropdown-item" href="#">18. Azərbaycan Dövlət Rəssamlıq Akademiyası</a>
+                        <a class="dropdown-item" href="#">19. Azərbaycan Milli Konservatoriyası</a>
+                        <a class="dropdown-item" href="#">20. Azərbaycan Tibb Universiteti</a>
+                        <a class="dropdown-item" href="#">21. Azərbaycan Dövlət Bədən Tərbiyəsi və İdman Akademiyası</a>
+                        <a class="dropdown-item" href="#">22. Azərbaycan Dövlət Aqrar Universiteti</a>
+                        <a class="dropdown-item" href="#">23. Azərbaycan Respublikası Prezidenti Yanında Dövlət İdarəçilik Akademiyası</a>
+                        <a class="dropdown-item" href="#">24. Azərbaycan Dövlət Dəniz Akademiyası</a>
+                        <a class="dropdown-item" href="#">25. Milli Aviasiya Akademiyası</a>
+                        <a class="dropdown-item" href="#">26. “ADA” Universiteti</a>
+                        <a class="dropdown-item" href="#">27. Azərbaycan Turizm və Menecment Universiteti</a>
+                        <a class="dropdown-item" href="#">28. M.V.Lomonosov adına Moskva Dövlət Universitetinin Bakı filialı</a>
+                        <a class="dropdown-item" href="#">29. İ.M Seçenov adına Birinci Moskva Dövlət Tibb Universitetinin Bakı filialı</a>
+                        <a class="dropdown-item" href="#">30. Bakı Xoreoqrafiya Akademiyası</a>
+                        <a class="dropdown-item" href="#">31. Qərbi Kaspi Universiteti</a>
+                        <a class="dropdown-item" href="#">32.. Azərbaycan Universiteti</a>
+                        <a class="dropdown-item" href="#">33. Xəzər Universiteti</a>
+                        <a class="dropdown-item" href="#">34. "Odlar Yurdu" Universiteti</a>
+                        <a class="dropdown-item" href="#">35. Azərbaycan Əmək və Sosial Münasibətlər Akademiyası</a>
+                        <a class="dropdown-item" href="#">36. Bakı İslam Universiteti</a>
+                        <a class="dropdown-item" href="#">37. Azərbaycan Respublikası Dövlət Gömrük Komitəsinin Akademiyası</a>
+                        <a class="dropdown-item" href="#">38. Azərbaycan Dövlət İqtisad Universitetinin Zaqatala filialı </a>
+                        <a class="dropdown-item" href="#">39. Azərbaycan Dövlət Pedaqoji Universitetinin Ağcəbədi filialı</a>
+                        <a class="dropdown-item" href="#">40. Azərbaycan Dövlət Pedaqoji Universitetinin Cəlilabad filialı</a>
+                        <a class="dropdown-item" href="#">41. Azərbaycan Dövlət Pedaqoji Universitetinin Quba filialı</a>
+                        <a class="dropdown-item" href="#">42. Azərbaycan Dövlət Pedaqoji Universitetinin Şamaxı filialı</a>
+                        <a class="dropdown-item" href="#">43. Azərbaycan Dövlət Pedaqoji Universitetinin Şəki filialı</a>
+                        <a class="dropdown-item" href="#">44. Bakı Dövlət Universitetinin Qazax filialı</a>
+                        <a class="dropdown-item" href="#">45. Naxçıvan Müəllimlər İnstitutunu</a>
+                        <a class="dropdown-item" href="#">46. Naxçıvan Universiteti</a>
+                        <a class="dropdown-item" href="#">47. Bakı Biznes Universiteti</a>
+                        <a class="dropdown-item" href="#">48. Azərbaycan Kooperasiya Universiteti</a>
+                        <a class="dropdown-item" href="#">49. Bakı Qızlar Universiteti</a>
+                        <a class="dropdown-item" href="#">50. Bakı Avrasiya Universiteti</a>
+                        <a class="dropdown-item" href="#">51. Azərbaycan İlahiyyat İnstitutu</a>
+                        <a class="dropdown-item" href="#">52. Heydər Əliyev adına Azərbaycan Ali Hərbi Məktəbi</a>
+                        <a class="dropdown-item" href="#">53. Dövlət Təhlükəsizlik Xidmətinin Heydər Əliyev adına Akademiyası</a>
+                        <a class="dropdown-item" href="#">54. Daxili İşlər Nazirliyinin Polis Akademiyası</a>
+                        <a class="dropdown-item" href="#">55. Azərbaycan Respublikası DİN Daxili Qoşunlarının Ali Hərbi Məktəbi</a>
+                        <a class="dropdown-item" href="#">56. Azərbaycan Respublikası Dövlət Sərhəd Xidməti Akademiyası</a>
+                        <a class="dropdown-item" href="#">57. Fövqəladə Hallar Nazirliyinin Akademiyası</a>
+                        <a class="dropdown-item" href="#">58. Bakı Ali Neft Məktəbi</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Vetenoglu Group</a>
+                      </div>
+                </div>
+                <li class="nav-item"><a href="index.html" class="nav-link btn btn-outline-primary  text-white ml-2"><i class="fas fa-user-tag"></i> Ixtisaslar</a></li>
+                <li class="nav-item"><a href="inx.html" class="nav-link btn btn-outline-primary  text-white ml-2"><i class="fab fa-discourse"></i> kurslar</a></li>
+            </ul>
+            
+           <span> <a href="https://www.facebook.com/groups/3069023419802319/"><i class="fab fa-facebook-f"></i></a></span>
+         
+        </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row bg-secondary mt-4">
+        
+            <div class="col-md-2 ml-4">
+                <div class="dropdown">
+                    <button class="btn btn-outline-primary btn-lg dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      1-ci grup
+                    </button>
+                    <div class="dropdown-menu scrolist" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#"> <b>1. Bakı Dövlət Universiteti</b></a>
+                        <hr>
+                        <p class="ml-4">Fizika müəllimliyi Ə 442 (448)</p>
+                        <p class="ml-4">Riyaziyyat müəllimliyi Ə 540 (540)</p>
+                        <p class="ml-4">İnformatika müəllimliyi Ə 291 (386)</p>
+                        <p class="ml-4">Riyaziyyat Ə 294 (496)</p>
+                        <p class="ml-4">Riyaziyyat (tədris ingilis dilində) Ə 542 (542)</p>
+                        <p class="ml-4">Mexanika Ə 281 (448)</p>
+                        <p class="ml-4">Fizika Ə 288 (417)</p>
+                        <p class="ml-4">Fizika (tədris ingilis dilində) Ə 429 (429)</p>
+                        <p class="ml-4">Geologiya Ə 250 (374)</p>
+                        <p class="ml-4">Geologiya Q 250 ( – )</p>
+                        <p class="ml-4">Kompüter elmləri Ə 346 (542)</p>
+                        <p class="ml-4">Kompüter elmləri Q 264 ( – )</p>
+                        <p class="ml-4">Kompüter elmləri (tədris ingilis dilində) Ə 623 (623)</p>
+                        <p class="ml-4">Geologiya mühəndisliyi Ə 239 (434)</p>
+                        <p class="ml-4">Geologiya mühəndisliyi Q 201 ( – )7</p>
+                        <p class="ml-4">Hidrogeologiya mühəndisliyi Ə 200 (351)</p>
+                        <p class="ml-4">Hidrogeologiya mühəndisliyi Q 200 (360)</p>
+                        <p class="ml-4">Geofizika mühəndisliyi Ə 244 (424)</p>
+                        <p class="ml-4">Geofizika mühəndisliyi Q 200 ( – )</p>
+                        <p class="ml-4">Geodeziya və xəritəçilik mühəndisliyi Ə 236 (342)</p>
+                        <p class="ml-4">Geodeziya və xəritəçilik mühəndisliyi Q 200 ( – )</p>
+                        <p class="ml-4">Kimya mühəndisliyi Ə 300 (578)</p>
+                        <p class="ml-4">Torpaqşünaslıq və aqrokimya Ə 328 (328)</p>
+                        <p class="ml-4">Torpaqşünaslıq və aqrokimya Q 294 (294)</p>
+                        <p class="ml-4">Yer quruluşu, torpaq və şəhər kadastrı Ə 351 (351)</p>
+                        <p class="ml-4">Yer quruluşu, torpaq və şəhər kadastrı Q 201 (330)</p>
+                        <p class="ml-4">Fizika müəllimliyi (Qazax filialı) Ə 211 (458)</p>
+                        <p class="ml-4">Riyaziyyat və informatika müəllimliyi (Qazax filialı) Ə 242 (549)</p>
+                        <p class="ml-4">Riyaziyyat müəllimliyi (Qazax filialı) Ə 217 ( – )</p>
+                        <p class="ml-4">İnformatika müəllimliyi (Qazax filialı) Ə 200 ( -)</p>
+                        <b class="ml-4">Azərbaycan Dövlət Neft və Sənaye Universiteti</b>
+                        <hr>
+                        <p class="ml-4">İnformasiya təhlükəsizliyi Ə 278 (592)</p>
+                        <p class="ml-4">Geologiya Ə 386 (386)</p>
+                        <p class="ml-4">Kompüter elmləri Ə 576 (576)</p>
+                        <p class="ml-4">Kompüter elmləri Q 250 ( – )</p>
+                        <p class="ml-4">Kompüter elmləri (tədris ingilis dilində) Ə 630 (630)</p>
+                        <p class="ml-4">Materialşünaslıq mühəndisliyi Ə 204 (329)</p>
+                        <p class="ml-4">Geologiya mühəndisliyi Ə 280 (434)</p>
+                        <p class="ml-4">Geologiya mühəndisliyi (tədris ingilis dilində) Ə 455 (455)</p>
+                        <p class="ml-4">Hidrogeologiya mühəndisliyi Ə 258 (353)</p>
+                        <p class="ml-4">Geofizika mühəndisliyi Ə 308 (422)</p>
+                        <p class="ml-4">Dağ-mədən mühəndisliyi Ə 254 (347)</p>
+                        <p class="ml-4">Neft-qaz mühəndisliyi Ə 353 (603)</p>
+                        <p class="ml-4">Neft-qaz mühəndisliyi (tədris ingilis dilində) Ə 622 (622)</p>
+                        <p class="ml-4">Neft-qaz qurğuları mühəndisliyi Ə 326 (523)</p>
+                        <p class="ml-4">Elektroenergetika mühəndisliyi Ə 475 (475)</p>
+                        <p class="ml-4">Elektroenergetika mühəndisliyi (tədris ingilis dilində) Ə 490 (490)</p>
+                        <p class="ml-4">İstilik energetikası mühəndisliyi Ə 366 (366)</p>
+                        <p class="ml-4">Enerji maşınqayırması mühəndisliyi Ə 348 (348)</p>
+                        <p class="ml-4">Cihazqayırma mühəndisliyi Ə 293 (417)</p>
+                        <p class="ml-4">Cihazqayırma mühəndisliyi (tədris ingilis dilində) Ə 251 (421)</p>
+                        <p class="ml-4">Texnoloji maşın və avadanlıqlar mühəndisliyi Ə 375 (375)</p>
+                        <p class="ml-4">Elektrik mühəndisliyi Ə 418 (418)</p>
+                        <p class="ml-4">Elektronika, telekommunikasiya və radiotexnika mühəndisliyi Ə 496 (496)</p>
+                        <p class="ml-4">Elektronika, telekommunikasiya və radiotexnika mühəndisliyi (tədris ingilis dilində) Ə 517 (517)</p>
+                        <p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi Ə 425 (540)</p>
+                        <p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi (tədris ingilis dilində) Ə 619 (619)</p>
+                        <p class="ml-4">Mexatronika və robototexnika mühəndisliyi Ə 250 (503)</p>
+                        <p class="ml-4">Mexatronika və robototexnika mühəndisliyi (tədris ingilis dilində) Ə 596 (596)</p>
+                        <p class="ml-4">Mexanika mühəndisliyi Ə 279 (488)</p>
+                        <p class="ml-4">Kompüter mühəndisliyi Ə 415 (553)</p>
+                        <p class="ml-4">Kompüter mühəndisliyi (tədris ingilis dilində) Ə 624 (624)</p>
+                        <p class="ml-4">Kimya mühəndisliyi Ə 285 (574)</p>
+                        <p class="ml-4">Kimya mühəndisliyi (tədris ingilis dilində) Ə 612 (612)</p>
+                        <p class="ml-4">Kimya mühəndisliyi Ə 285 (574)</p>
+                        <p class="ml-4">Kimya mühəndisliyi (tədris ingilis dilində) Ə 612 (612)</p>
+                        <p class="ml-4">Təkrar emal və bərpa texnologiyaları mühəndisliyi Ə 211 (338) Ə 285 (574)</p>
+                        <p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Ə 270 (437)</p>
+                        <p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi (tədris ingilis dilində) Ə 305 (434)</p>
+                        <p class="ml-4">Biotibbi texnologiya mühəndisliyi Ə 443 (443)</p>
+                        <p class="ml-4">Biotibbi texnologiya mühəndisliyi (tədris ingilis dilində) Ə 447 (447)</p>
+                        <p class="ml-4">Ekologiya mühəndisliyi Ə 374 (374)</p>
+                        <p class="ml-4">Ekologiya mühəndisliyi (tədris ingilis dilində) Ə 364 (364)</p>
+                        <p class="ml-4">Fövqəladə hallar və həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi Ə 468 (468)</p>
+                        <p class="ml-4">İnformasiya texnologiyaları Ə 495 (538)</p>
+                        <p class="ml-4">İnformasiya texnologiyaları (tədris ingilis dilində) Ə 618 (618)</p>
+                        <p class="ml-4">Sistem mühəndisliyi Ə 562 (562)</p>
+                        <p class="ml-4">Sistem mühəndisliyi (tədris ingilis dilində) Ə 642 (642)</p>
+                        <p class="ml-4">Sənaye mühəndisliyi Ə 238 (423)</p>
+                        <p class="ml-4">Logistika və nəqliyyat texnologiyaları mühəndisliyi Ə 358 (358)</p>
+                        <b class="ml-4">Azərbaycan Texniki Universiteti</b>
+                        <hr>
+                        <p class="ml-4"> Çoxkanallı radiorele və troposfer rabitəsinin yerüstü aparatlarının hazırlanması, istismarı və təmiri Ə 353 (353)</p>
+<p class="ml-4">Kompozisiya materiallarından müdafiə təyinatlı məmulatların layihələndirilməsi və istehsalı Ə 333 (333) </p>
+<p class="ml-4">İnformasiya təhlükəsizliyi Ə 200 ( – )</p>
+<p class="ml-4">Kompüter elmləri Ə 303 ( – )</p>
+<p class="ml-4">Materialşünaslıq mühəndisliyi Ə 208 (329)</p>
+<p class="ml-4">Dağ-mədən mühəndisliyi Ə 208 (347)</p>
+<p class="ml-4">Elektroenergetika mühəndisliyi Ə 245 (444)</p>
+<p class="ml-4">İstilik energetikası mühəndisliyi Ə 220 (360)</p>
+<p class="ml-4">Enerji maşınqayırması mühəndisliyi Ə 200 (347)</p>
+<p class="ml-4">Metallurgiya mühəndisliyi Ə 200 (315)</p>
+<p class="ml-4">Maşın mühəndisliyi Ə 200 (320)</p>
+<p class="ml-4">Dəmiryol nəqliyyatı və təsərrüfatı mühəndisliyi Ə 234 (328)</p>
+<p class="ml-4">Yerüstü nəqliyyat vasitələrinin mühəndisliyi Ə 235 (339)</p>
+<p class="ml-4">Yerüstü nəqliyyat vasitələrinin mühəndisliyi Q 213 (345)</p>
+<p class="ml-4">Nəqliyyatda daşımaların və idarəetmənin təşkili mühəndisliyi Ə 290 (353)</p>
+<p class="ml-4">Cihazqayırma mühəndisliyi Ə 203 ( – )</p>
+<p class="ml-4">Texnoloji maşın və avadanlıqlar mühəndisliyi Ə 200 (356)</p>
+<p class="ml-4">Elektronika, telekommunikasiya və radiotexnika mühəndisliyi Ə 250 (430)</p>
+<p class="ml-4">Elektronika, telekommunikasiya və radiotexnika mühəndisliyi Q 250 ( – )<p>     
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi Ə 245 ( – )</p>
+<p class="ml-4">Elektrik mühəndisliyi Ə 226(390)</p>
+<p class="ml-4">Mexanika mühəndisliyi Ə 220 ( – )</p>
+<p class="ml-4">Kompüter mühəndisliyi Ə 282 ( – )</p>
+<p class="ml-4">Poliqrafiya mühəndisliyi Ə 219 (329)</p>
+<p class="ml-4">Təkrar emal və bərpa texnologiyaları mühəndisliyi Ə 204 (340)</p>
+<p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Biotibbi texnologiya mühəndisliyi Ə 241 (405)</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 200 (358)</p>
+<p class="ml-4">Fövqəladə hallar və həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi Ə 260 (459)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 265 (538)</p>
+<p class="ml-4">İnformasiya texnologiyaları Q 250 ( – )</p>
+<p class="ml-4">Sistem mühəndisliyi Ə 259 ( – )</p>
+<p class="ml-4">Silah və silah sistemlərinin istehsal texnologiyası Ə 499 (499)</p>
+<p class="ml-4">Optotexnika Ə 350 (350)</p>
+<p class="ml-4">Pirotexniki vasitələrin texnologiyası Ə 336 (336)</p>
+<b class="ml-4">Azərbaycan Memarlıq və İnşaat Universiteti</b>
+<hr>
+<p class="ml-4">Materialşünaslıq mühəndisliyi Ə 206 (336)</p>
+<p class="ml-4">Neft-qaz qurğuları mühəndisliyi Ə 259 (525)</p>
+<p class="ml-4">Yerüstü nəqliyyat vasitələrinin mühəndisliyi Ə 249 (339)</p>
+<p class="ml-4">Texnoloji maşın və avadanlıqlar mühəndisliyi Ə 212 (359)</p>
+<p class="ml-4">Elektrik mühəndisliyi Ə 200 (397)</p>
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi Ə 245 ( – )</p>
+<p class="ml-4">Mexanika mühəndisliyi Ə 230 ( – )</p>
+<p class="ml-4">İnşaat mühəndisliyi Ə 251 (432)</p>
+<p class="ml-4">İnşaat mühəndisliyi (tədris ingilis dilində) Ə 477 (477)</p>
+<p class="ml-4">Mühəndis sistemlərinin və qurğularının tikintisi mühəndisliyi Ə 211 (340)</p>
+<p class="ml-4">Mühəndis sistemlərinin və qurğularının tikintisi mühəndisliyi Q 202 (356)</p>
+<p class="ml-4">Nəqliyyat tikintisi mühəndisliyi Ə 250 (328)</p>
+<p class="ml-4">Meliorasiya və su təsərrüfatı tikintisi mühəndisliyi Ə 233 (318)</p>
+<p class="ml-4">Tikinti materialları və məmulatlarının texnologiyası mühəndisliyi Ə 207 (321)</p>
+<p class="ml-4">Meşə materiallarının və ağac emalının texnologiyası mühəndisliyi Ə 200 (315)</p>
+<p class="ml-4">Geodeziya və xəritəçilik mühəndisliyi Ə 220 (342)</p>
+<p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Ə 228 ( – )</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 217 (352)</p>
+<p class="ml-4">Ekologiya mühəndisliyi (tədris ingilis dilində) Ə 200 ( – )</p>
+<p class="ml-4">Fövqəladə hallar və həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi Ə 251 (457)</p>
+<p class="ml-4">Fövqəladə hallar və həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi (tədris ingilis dilində) Ə 200 (459)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 270 ( – )</p>
+<p class="ml-4">İnformasiya texnologiyaları (tədris ingilis dilində) Ə 313 (541)</p>
+<p class="ml-4">Şəhərsalma Ə 214 (349)</p>
+<p class="ml-4">Yer quruluşu, torpaq və şəhər kadastrı Ə 280 (327)</p>
+<p class="ml-4">Memarlıq Ə 214 (383)</p>
+<p class="ml-4">Memarlıq (tədris ingilis dilində) Ə 429 (429)</p>
+<b class="ml-4">Azərbaycan Dövlət Pedaqoji Universiteti</b>
+<hr>
+<p class="ml-4">Fizika müəllimliyi Ə 379 (447)</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 490 (490)</p>
+<p class="ml-4">Riyaziyyat müəllimliyi Ə 458 (458)</p>
+<p class="ml-4">Texnologiya müəllimliyi Ə 273 (330)</p>
+<p class="ml-4">İnformatika müəllimliyi Ə 309 (388)    </p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi (Şamaxı filialı) Ə 273 (485)</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi (Şəki filialı) Ə 287 (458)</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi (Ağcabədi filialı) Ə 294 (485)</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi (Quba filialı) Ə 351 (457)</p>
+<b class="ml-4">Azərbaycan Dövlət İqtisad Universiteti</b>
+<hr>
+<p class="ml-4">Texnoloji maşın və avadanlıqlar mühəndisliyi Ə 274 (356)</p>
+<p class="ml-4">Qida məhsulları mühəndisliyi Ə 385 (385)</p>
+<p class="ml-4">Qida məhsulları mühəndisliyi Q 239 (365)</p>
+<p class="ml-4">Çoxişlənən malların texnologiyası mühəndisliyi Ə 358 (368)</p>
+<p class="ml-4">İstehlak mallarının ekspertizası və marketinqi Ə 296 (407)</p>
+<p class="ml-4">İstehlak mallarının ekspertizası və marketinqi Q 236 (432)</p>
+<p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Ə 271 (434)</p>
+<p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Q 223 (515)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 (538)</p>
+<p class="ml-4">İnformasiya texnologiyaları Q 250 ( – )</p>
+<p class="ml-4">Sistem mühəndisliyi Ə 283 ( – )</p>
+<p class="ml-4">İnformasiya texnologiyaları (Zaqatala filialı) Ə 250(-)</p>
+<b class="ml-4">Bakı Mühəndislik Universiteti</b>
+<hr>
+<p class="ml-4">Fizika müəllimliyi (tədris ingilis dilində) Ə 217 (447)</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi (tədris ingilis dilində) Ə 511 (511)</p>
+<p class="ml-4">Riyaziyyat müəllimliyi (tədris ingilis dilində) Ə 373 (456)</p>
+<p class="ml-4">Elektroenergetika mühəndisliyi Ə 231 (441)</p>
+<p class="ml-4">Maşın mühəndisliyi Ə 321 (321)</p>
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi Ə 262 (541)</p>
+<p class="ml-4">Mexanika mühəndisliyi Ə 230 (488)</p>
+<p class="ml-4">Mexanika mühəndisliyi (tədris ingilis dilində) Ə 541 (541)</p>
+<p class="ml-4">Kompüter mühəndisliyi Ə 200 (555)</p>
+<p class="ml-4">Kompüter mühəndisliyi (tədris ingilis dilində) Ə 648 (648)</p>
+<p class="ml-4">Memarlıq Ə 257 (383)</p>
+<p class="ml-4">Memarlıq (tədris ingilis dilində) Ə 396 (396)</p>
+<p class="ml-4">İnşaat mühəndisliyi Ə 250 (434)</p>
+<p class="ml-4">İnşaat mühəndisliyi (tədris ingilis dilində) Ə 446 (446)</p>
+<p class="ml-4">Mühəndis sistemlərinin və qurğularının tikintisi mühəndisliyi Ə 209 (345)</p>
+<p class="ml-4">Kimya mühəndisliyi Ə 245 (578)</p>
+<p class="ml-4">Kimya mühəndisliyi (tədris ingilis dilində) Ə 461 (574)</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 223 (350)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 (540)</p>
+<p class="ml-4">İnformasiya texnologiyaları (tədris ingilis dilində) Ə 634 (634)</p>
+<p class="ml-4">Sistem mühəndisliyi Ə 266 (576)</p>
+<p class="ml-4">Sənaye mühəndisliyi Ə 226 (425)</p>
+<p class="ml-4">Sənaye mühəndisliyi (tədris ingilis dilində) Ə 275 (425)</p>
+<p class="ml-4">Logistika və nəqliyyat texnologiyaları mühəndisliyi Ə 247 (343)</p>
+<p class="ml-4">Şəhərsalma Ə 203 (350)</p>
+<p class="ml-4">Dizayn Ə 204 (389)</p>
+<b class="ml-4">Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası</b>
+<hr>
+<p class="ml-4">Kompüter elmləri Ə 637 (637)</p>
+<b class="ml-4">“ADA” Universiteti</b>
+<hr>
+<p class="ml-4">Kompüter elmləri (tədris ingilis dilində) Ə 360</p>
+<p class="ml-4">Kompüter mühəndisliyi (tədris ingilis dilində) Ə 300</p>
+<p class="ml-4">İnformasiya texnologiyaları (tədris ingilis dilində) Ə 300</p>
+<p class="ml-4">Azərbaycan Dövlət Rəssamlıq Akademiyası</p>
+<p class="ml-4">Memarlıq Ə 200 ( – )</p>
+<b class="ml-4">Azərbaycan Turizm və Menecment Universiteti</b>
+<hr>
+<p class="ml-4">Qida məhsulları mühəndisliyi Ə 200 (365)</p>
+<b class="ml-4">Milli Aviasiya Akademiyası</b>
+<hr>
+<p class="ml-4">Elektroenergetika mühəndisliyi Ə 337 (450)</p>
+<p class="ml-4">Avianəqliyyat istehsalatının təşkili mühəndisliyi Ə 360 (445)</p>
+<p class="ml-4">Aviasiya texnikası avadanlıqlarının istismarı mühəndisliyi Ə 474 (474)</p>
+<p class="ml-4">Hava nəqliyyatının hərəkətinin idarə olunması mühəndisliyi Ə 399 (399)</p>
+<p class="ml-4">Uçuş mühəndisliyi Ə 448 (448)</p>
+<p class="ml-4">Hava nəqliyyatında texnoloji proseslərin və istehsalatın təhlükəsizliyi mühəndisliyi Ə 344 (434)</p>
+<p class="ml-4">Nəqliyyatda daşımaların və idarəetmənin təşkili mühəndisliyi Ə 384 (384)</p>
+<p class="ml-4">Cihazqayırma mühəndisliyi Ə 303 (416)</p>
+<p class="ml-4">Elektronika, telekommunikasiya və radiotexnika mühəndisliyi Ə 491 (491)</p>
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi Ə 377 (546)</p>
+<p class="ml-4">Kompüter mühəndisliyi Ə 294 (557)</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 393 (393)</p>
+<p class="ml-4">Kosmik idarəetmə sistemləri mühəndisliyi Ə 366 (398)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 375 (539)</p>
+<p class="ml-4">Sistem mühəndisliyi Ə 326 ( -)</p>
+<b class="ml-4">Azərbaycan Dövlət Dəniz Akademiyası</b>
+<hr>
+<p class="ml-4">Gəmiqayırma və gəmi təmiri mühəndisliyi Ə 369 (415)</p>
+<p class="ml-4">Gəmi energetik qurğularının istismarı mühəndisliyi Ə 350 (409)</p>
+<p class="ml-4">Dəniz naviqasiyası mühəndisliyi Ə 418 (494)</p>
+<p class="ml-4"></p>Dəniz naviqasiyası mühəndisliyi (tədris ingilis dilində) Ə 432 (495)</p>
+<b class="ml-4">Bakı Ali Neft Məktəbi</b>
+<hr>
+<p class="ml-4">İnformasiya təhlükəsizliyi (tədris ingilis dilində) Ə 685 (685)</p>
+<p class="ml-4">İnformasiya təhlükəsizliyi (tədris ingilis dilində) Ə 662</p>
+<p class="ml-4">Neft-qaz mühəndisliyi (tədris ingilis dilində) Ə 670 (670)</p>
+<p class="ml-4">Neft-qaz mühəndisliyi (tədris ingilis dilində) Ə 651</p>
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi (tədris ingilis dilində) Ə 685 (685)</p>
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi (tədris ingilis dilində) Ə 660</p>
+<p class="ml-4">Kimya mühəndisliyi (tədris ingilis dilində) Ə 665 (665)</p>
+<p class="ml-4">Kimya mühəndisliyi (tədris ingilis dilində) Ə 655</p>
+<b class="ml-4">Naxçıvan Dövlət Universiteti</b>
+<hr>
+<p class="ml-4">Fizika müəllimliyi Ə 285 (448)</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 474 (474)</p>
+<p class="ml-4">Riyaziyyat müəllimliyi Ə 317 (456)</p>
+<p class="ml-4">Texnologiya müəllimliyi Ə 216 (333)</p>
+<p class="ml-4">Fizika Ə 250 (422)</p>
+<p class="ml-4">Fizika Q 250 ( – )</p>
+<p class="ml-4">Geologiya mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Elektroenergetika mühəndisliyi Ə 265 (439)</p>
+<p class="ml-4">Elektroenergetika mühəndisliyi Q 200 ( – )</p>
+<p class="ml-4">Dəmiryol nəqliyyatı və təsərrüfatı mühəndisliyi Ə 210 (341)</p>
+<p class="ml-4">Yerüstü nəqliyyat vasitələrinin mühəndisliyi Ə 286 (343)</p>
+<p class="ml-4">Yerüstü nəqliyyat vasitələrinin mühəndisliyi Q 200 ( – )</p>
+<p class="ml-4">Meliorasiya və su təsərrüfatı tikintisi mühəndisliyi Ə 200 (327)</p>
+<p class="ml-4">Geodeziya və xəritəçilik mühəndisliyi Ə 205 (347)</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 209 (361)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 301 (555)</p>
+<p class="ml-4">Torpaqşünaslıq və aqrokimya Ə 265 (265)</p>
+<b class="ml-4">Naxçıvan Müəllimlər İnstitutu</b>
+<hr>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 222 (471)</p>
+<b class="ml-4">Azərbaycan Dövlət Aqrar Universiteti (Gəncə şəhəri)</b>
+<hr>
+<p class="ml-4">Maşın mühəndisliyi Ə 200 (328)</p>
+<p class="ml-4">Yerüstü nəqliyyat vasitələrinin mühəndisliyi Ə 200 (348)</p>
+<p class="ml-4">Elektrik mühəndisliyi Ə 201 (398)</p>
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Meliorasiya və su təsərrüfatı tikintisi mühəndisliyi Ə 296 (296)</p>
+<p class="ml-4">Meliorasiya və su təsərrüfatı tikintisi mühəndisliyi Q 249 (249)</p>
+<p class="ml-4">Qida məhsulları mühəndisliyi Ə 200 (367)</p>
+<p class="ml-4">İstehlak mallarının ekspertizası və marketinqi Ə 199 ( – )</p>
+<p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Ə 200 (467)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 (604)</p>
+<p class="ml-4">Torpaqşünaslıq və aqrokimya Ə 267 (267)</p>
+<p class="ml-4">Torpaqşünaslıq və aqrokimya Q 224 (224)</p>
+<p class="ml-4">Torpaqşünaslıq və aqrokimya (tədris ingilis dilində) Ə 150 (153)</p>
+<p class="ml-4">Aqronomluq Ə 247 (247)</p>
+<p class="ml-4">Aqronomluq Q 207 (207)</p>
+<p class="ml-4">Aqronomluq (tədris ingilis dilində) Ə 150 (161)</p>
+<p class="ml-4">Zootexniklik Ə 211 (211)</p>
+<p class="ml-4">Zootexniklik Q 196 (196)</p>
+<p class="ml-4">Yer quruluşu, torpaq və şəhər kadastrı Ə 200 (330)</p>
+<p class="ml-4">Yer quruluşu, torpaq və şəhər kadastrı Q 200 ( – )</p>
+<p class="ml-4">Aqromühəndislik Ə 248 (248)</p>
+<p class="ml-4">Aqromühəndislik Q 210 (210)</p>
+<p class="ml-4">Balıqçılıq və balıqçılıq təsərrüfatı işi Ə 198 (198)</p>
+<p class="ml-4">Meşəçilik Ə 212 (212)</p>
+<p class="ml-4">Şərabçılıq Ə 213 (213)</p>
+<b class="ml-4">Gəncə Dövlət Universiteti</b>
+<hr>
+<p class="ml-4">Fizika müəllimliyi Ə 243 (450)</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 361 (457)</p>
+<p class="ml-4">Riyaziyyat müəllimliyi Ə 259 (458)</p>
+<p class="ml-4">Texnologiya müəllimliyi Ə 199 (343)</p>
+<p class="ml-4">İnformatika müəllimliyi Ə 220 (393)</p>
+<p class="ml-4">Kompüter elmləri Ə 250 ( – )</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 200 (357)</p>
+<b class="ml-4">Azərbaycan Texnologiya Universiteti (Gəncə şəhəri)</b>
+<hr>
+<p class="ml-4">Metallurgiya mühəndisliyi Ə 200 (315)</p>
+<p class="ml-4">Nəqliyyatda daşımaların və idarəetmənin təşkili mühəndisliyi Ə 195 (353)</p>
+<p class="ml-4">Nəqliyyatda daşımaların və idarəetmənin təşkili mühəndisliyi Q 198 ( – )</p>
+<p class="ml-4">Elektronika, telekommunikasiya və radiotexnika mühəndisliyi Ə 250 (503)</p>
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi Ə 200 (562)</p>
+<p class="ml-4">Kompüter mühəndisliyi Ə 202 ( – )</p>
+<p class="ml-4">Kompüter mühəndisliyi Q 209 ( – )</p>
+<p class="ml-4">Kimya mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Qida məhsulları mühəndisliyi Ə 200 (364)</p>
+<p class="ml-4">Çoxişlənən malların texnologiyası mühəndisliyi Ə 189 ( – )</p>
+<p class="ml-4">Çoxişlənən malların texnologiyası mühəndisliyi Q 193 ( – )</p>
+<p class="ml-4">İstehlak mallarının ekspertizası və marketinqi Ə 191 ( – )</p>
+<p class="ml-4">İstehlak mallarının ekspertizası və marketinqi Q 195 ( – )</p>
+<p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 ( – )</p>
+<p class="ml-4">Logistika və nəqliyyat texnologiyaları mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Şərabçılıq Ə 200 (307)</p>
+<p class="ml-4">Şərabçılıq Q 200 ( -)</p>
+<b class="ml-4">Sumqayıt Dövlət Universiteti</b>
+<hr>
+<p class="ml-4">Fizika müəllimliyi Ə 280 (452)</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 334 (455)</p>
+<p class="ml-4">Riyaziyyat müəllimliyi Ə 288 (474)</p>
+<p class="ml-4">Riyaziyyat Ə 253 ( – )</p>
+<p class="ml-4">Fizika Ə 250 (417)</p>
+<p class="ml-4">Neft-qaz mühəndisliyi Ə 224 ( – )</p>
+<p class="ml-4">Elektroenergetika mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">İstilik energetikası mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Cihazqayırma mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Elektrik mühəndisliyi Ə 200 (413)</p>
+<p class="ml-4">Proseslərin avtomatlaşdırılması mühəndisliyi Ə 200 (568)</p>
+<p class="ml-4">Kompüter mühəndisliyi Ə 204 ( – )</p>
+<p class="ml-4">Kimya mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Ə 200 (535)</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 200 (350)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 ( – )</p>
+<p class="ml-4">Sənaye mühəndisliyi Ə 200 (427)</p>
+<b class="ml-4">Mingəçevir Dövlət Universiteti</b>
+<hr>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 310 (465)</p>
+<p class="ml-4">Riyaziyyat müəllimliyi Ə 260 ( – )</p>
+<p class="ml-4">Elektroenergetika mühəndisliyi Ə 200 (504)</p>
+<p class="ml-4">İstilik energetikası mühəndisliyi Ə 200 (373)</p>
+<p class="ml-4">Yerüstü nəqliyyat vasitələrinin mühəndisliyi Ə 212 (346)</p>
+<p class="ml-4">Çoxişlənən malların texnologiyası mühəndisliyi Ə 189 (518)</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 200 (365)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 ( – )</p>
+<b class="ml-4">Lənkəran Dövlət Universiteti</b>
+<hr>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 304 (456)</p>
+<p class="ml-4">Texnologiya müəllimliyi Ə 196 ( – )</p>
+<p class="ml-4">Kompüter mühəndisliyi Ə 236 ( – )</p>
+<p class="ml-4">Qida məhsulları mühəndisliyi Ə 208 (371)</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 ( – )</p>
+<p class="ml-4">Torpaqşünaslıq və aqrokimya Ə 191 (286)</p>
+<p class="ml-4">Aqronomluq Ə 190 (253)</p>
+<p class="ml-4">Aqronomluq Q 189 (273)</p>
+<p class="ml-4">Meşəçilik Ə 186 (270)</p>
+<p class="ml-4">Azərbaycan Kooperasiya Universiteti</p>
+<p class="ml-4">Qida məhsulları mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Çoxişlənən malların texnologiyası mühəndisliyi Ə 188 ( – )</p>
+<p class="ml-4">İstehlak mallarının ekspertizası və marketinqi Ə 191 ( – )</p>
+<p class="ml-4">Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi Ə 200 ( – )</p>
+<b class="ml-4">“Azərbaycan” Universiteti</b>
+<hr>
+<p class="ml-4">Kompüter mühəndisliyi Ə 200 ( – )</p>
+<b class="ml-4">Qərbi Kaspi Universiteti (əvvəlki Qərb Universiteti)</b>
+<hr>
+<p class="ml-4">Kompüter elmləri Ə 250 ( – )</p>
+<p class="ml-4">Cihazqayırma mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Mexatronika və robototexnika mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Kompüter mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Meşə materiallarının və ağac emalının texnologiyası mühəndisliyi Ə 187 (313)</p>
+<p class="ml-4">İstehlak mallarının ekspertizası və marketinqi Ə 198 ( – )</p>
+<p class="ml-4">Poliqrafiya mühəndisliyi Ə 192 ( – )</p>
+<p class="ml-4">Təkrar emal və bərpa texnologiyaları mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">Ekologiya mühəndisliyi Ə 200 ( – )</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 ( – )</p>
+<p class="ml-4">Meşəçilik Ə 186 (258)</p>
+<p class="ml-4">Meşəçilik Q 186 ( – ) </p>
+<b class="ml-4">Xəzər Universiteti</b>
+<hr>
+<p class="ml-4">Fizika müəllimliyi Ə 200 ( – )</p>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 200 (462)</p>
+<p class="ml-4">Kompüter elmləri (tədris ingilis dilində) Ə 575 (575)</p>
+<p class="ml-4">Neft-qaz mühəndisliyi (tədris ingilis dilində) Ə 200 (645</p>
+<p class="ml-4">Elektronika, telekommunikasiya və radiotexnika mühəndisliyi (tədris ingilis dilində) Ə 250 (431)</p>
+<p class="ml-4">Mexanika mühəndisliyi (tədris ingilis dilində) Ə 200 (488)</p>
+<p class="ml-4">Kompüter mühəndisliyi (tədris ingilis dilində) Ə 200 (556)</p>
+<p class="ml-4">İnşaat mühəndisliyi (tədris ingilis dilində) Ə 250 (454)</p>
+<p class="ml-4">Kimya mühəndisliyi (tədris ingilis dilində) Ə 200 (589)</p>
+<b class="ml-4">Bakı Avrasiya Universiteti</b>
+<hr>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 ( – )</p>
+<b class="ml-4">Bakı Qızlar Universiteti</b>
+<hr>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 229 ( – )</p>
+<b class="ml-4">“Odlar Yurdu” Universiteti</b>
+<hr>
+<p class="ml-4">Kompüter elmləri Ə 250 ( – )</p>
+<p class="ml-4">Kompüter mühəndisliyi Ə 200 ( – )</p>
+<b class="ml-4">“Naxçıvan” Universiteti (Naxçıvan şəhəri)</b>
+<hr>
+<p class="ml-4">Riyaziyyat və informatika müəllimliyi Ə 202 ( – )</p>
+<p class="ml-4">İnformasiya texnologiyaları Ə 250 ( – )</p>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="dropdown">
+                    <button class="btn btn-outline-primary btn-lg dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      2-ci grup
+                    </button>
+                    <div class="dropdown-menu scrolist" aria-labelledby="dropdownMenuButton">
+                        <b class="ml-4">Bakı Dövlət Universiteti</b>
+                        <hr>
+                        <p class="ml-4">Coğrafiya müəllimliyi-Ə 408.8 (408.8)</p>
+                        <p class="ml-4">Sosiologiya Ə 365.8 (365.8)</p>
+                        <p class="ml-4">Sosiologiya(tədris ingilis dilində) Ə200.0 (304.0)</p>
+                        <p class="ml-4">Regionşünaslıq(Qafqaz üzrə) Ə 150.0 (402.2)</p>
+                        <p class="ml-4">Regionşunaslıq( Amerika üzrə) Ə 299.6 (358.1)</p>
+                        <p class="ml-4">Regionşünaslıq( ərəb ölkələri üzrə) Ə 150.0 (549.7)</p>
+                        <p class="ml-4">Regionşünaslıq(İran üzrə)  Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq(Türkiyə üzrə) Ə 240.8 ( 394.6)</p>
+                        <p class="ml-4">Regionşünaslıq(İsrail üzrə) Ə 150.0 (385.7)</p>
+                        <p class="ml-4">Regionşünaslıq(Yaponiya üzrə) Ə 221.5 (-)</p>
+                        <p class="ml-4">Regionşünaslıq( Pakistan üzrə) Ə 150.0(-)</p>
+                        <p class="ml-4">Regionşünaslıq(Koreya üzrə)Ə 293.1 (376.8)</p>
+                        <p class="ml-4">Regionşünaslıq(Amerika üzrə, tədris ingilis dilində)Ə 150.0 (405.4)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər  Ə 314.3( 495.9)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər Q  200.0 (-)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər (tədris ingilis dilində) Ə 411.1 (497.2)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı  Ə 310.9(-)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı Q 200.0(-)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı (tədris ingilis dilində) Ə 392.0 (543.1)</p>
+                        <p class="ml-4">İqtisadiyyat Ə 332.7 (529.9)</p>
+                        <p class="ml-4">İqtisadiyyat Q 200.0(-)</p>
+                        <p class="ml-4">İqtisadiyyat (tədris ingilis dilində) Ə 310.9 (525.9)</p>
+                        <p class="ml-4">Menecment Ə 309.8 (489.8)</p>
+                        <p class="ml-4">Davamlı inkişafın idarə edilməsi Ə 304.3 (457.1)</p>
+                        <p class="ml-4">Coğrafiya Ə 300.6 ( 333.5)</p>
+                        <p class="ml-4">Coğrafiya Q  232.3 (341.5)</p>
+                        <p class="ml-4">Hidrometerologiya   Ə 281.3 (322.4)</p>
+                        <p class="ml-4">Turizm və otelcilik  Ə 397.5 ( 397.5)</p>
+                        <p class="ml-4">Turizm və otelçilik Q  189.1 (217.5)</p>
+                        <p class="ml-4">Turizm və otelçilik (tədris ingilis dilində)  Ə 398.4 ( 398.4)</p>
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi (Qazax filialı) Ə 200.0( 374.7)</p>
+                        <p class="ml-4">Coğrafiya müəllimliyi (Qazax filialı) Ə 200.0(-)</p>
+                        <p class="ml-4">Turizm və otelçilik( Qazax filialı) Ə 150.0 ( 269.6)</p>
+                        <p class="ml-4">Turizm və otelçilik ( Qazax filialı) Q 162.6 (223.0)</p>
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Neft və Sənaye Universiteti</b> 
+                        <hr>
+                        <p class="ml-4">İqtisadiyyat  Ə 326.2 (534.5</p>
+                        <p class="ml-4">İqtisadiyyat ( tədris ingilis dilində) Ə 491.8 (529.1)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Ə 425.9 (425.9)</p>
+                        <p class="ml-4">Menecment  Ə 269.3 ( 524.6)</p>
+                        <p class="ml-4">Menecment ( tədris ingilis dilində) Ə 404.1 ( 495.3)</p>
+                        <p class="ml-4">Marketinq ( tədris ingilis dilində ) Ə 398.3 ( 469.5)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi  Ə 334.5 (557.2)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi  Q 188.2 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi ( tədris ingilis dilində)  Ə 409.8 ( 556.1)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Texniki Universiteti </b>
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması  Ə 277.6 ( 406.4)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Q 200.0 (-)</p>
+                        <p class="ml-4">Subbakalavr üzrə 73.6 (-)</p>
+                        <p class="ml-4"> Menecment  Ə 283.6 (-)</p>
+                        <p class="ml-4">Nəqliyyat servisi (avtomobil nəqliyyatı üzrə ) Ə 348.0 (348.0)</p>
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Memarlıq və İnşaat Universiteti </b>
+                        <hr>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması ( tədris ingilis dilində) Ə 256.4 (433.4)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması  Ə264.4(408.0)</p>
+                        <p class="ml-4">Menecment  Ə  260.4(-)</p>
+                        <p class="ml-4">Marketinq Ə 246.5 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi  Ə  286.5 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Pedaqoji Universiteti </b>
+                        <hr>
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi  Ə 398.4 (398.4)</p>
+                        <p class="ml-4">Coğrafiya müəllimliyi Ə 324.4 (384.6)</p>
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi ( Şamaxı filialı) Ə 200.0 (367.3)</p>
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi ( Şəki filialı) Ə 200.0 (385.4)</p>
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi ( Ağcabədi filialı) Ə  200.0( 385.7)</p>
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi ( Cəlilabad filialı)  Ə 205.4 (378.0)</p>
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi ( Quba filıalı)  Ə 211.1 (371.4)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Dövlət İqtisad Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Dünya iqtisadiyyatı Ə 353.1 ( 537.5)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı Q 200.0 (-)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı (tədris ingilis dilində)  Ə 599.6 (599.6)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 481.4 (566.2)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Q  255.8 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit ( tədris ingilis dilində )  Ə 630.9 ( 630.9)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit ( tədris türk dilində)  Ə 455.6 (567.6)</p>
+                        <p class="ml-4">Maliyyə  Ə 437.0 (604.2)</p>
+                        <p class="ml-4">Maliyyə Q 251.3 (-)</p>
+                        <p class="ml-4">Maliyyə ( tədris ingilis dilində ) Ə 643.4 (643.4)</p>
+                        <p class="ml-4">Maliyyə ( tədris türk dili) Ə 413.7 9 (605.6)</p>
+                        <p class="ml-4">İqtisadiyyat  Ə 384.3 (525.6)</p>
+                        <p class="ml-4">İqtisadiyyat Q 200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat (tədris ingilis dilində) Ə 615.5 ( 615.5)</p>
+                        <p class="ml-4">İqtisadiyyat ( tədris türk dilində ) Ə 361.2 ( 531.6)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Ə 467.7 (467.7)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Q 200.0 (415.7)</p>
+                        <p class="ml-4">Statistika Ə 437.9 (437.9)</p>
+                        <p class="ml-4">Statistika Q  200.0 (233.3)</p>
+                        <p class="ml-4">Menecment Ə 346.6 (490.4)</p>
+                        <p class="ml-4">Menecment Q 200.0 (-)</p>
+                        <p class="ml-4">Subbakalavr üzrə 76.6 (-)</p>
+                        <p class="ml-4">Marketinq Ə 384.3 (469.2)</p>
+                        <p class="ml-4">Marketinq Q 195.2 (-)</p>
+                        <p class="ml-4">Marketinq (tədris türk dilində ) Ə 328.8 ( 472.0)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 373.0 (548.7)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Q 201.1 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi (tədris ingilis dilində) Ə 610.2 ( 610.2)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi (tədris türk dilində) Ə 315.0 (550.5)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarə etməsi Ə 472.2 (472.2)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Q  200.0 (-)</p>
+                        <p class="ml-4">Kommersiya Ə 339.4 (451.3)</p>
+                        <p class="ml-4">Kommersiya Q 189.4 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit (Zaqatala filialı)  Ə 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit ( Zaqatala fililalı) Q  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə ( Zaqatala filialı) Ə 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə ( Zaqatala filialı) Q  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat (Zaqatala filialı) Ə 200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat ( Zaqatala filialı) Q 200.0 (-)</p>
+                        <p class="ml-4">Menecment (Zaqatala filialı ) Ə 200.0 (-)</p>
+                        <p class="ml-4">Marketinq ( Zaqatala filialı) Ə 150.0 (-)</p>
+                        <p class="ml-4">Marketinq ( Zaqatala filialı ) Q 152.7 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi ( Zaqatala filialı) Ə 150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi ( Zaqatala filialı) Q 163.2 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik ( Zaqatala filialı) Ə 150.0 ( 244.1)</p>
+                        <p class="ml-4">Turizm və otelçilik ( Zaqatala filialı ) Q 150.0 ( 282.7)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Dillər Universiteti </b>
+                        
+                        <hr>
+                        <p class="ml-4">Regionşünaslıq ( Afrika üzrə) Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Almaniya üzrə )  Ə 369.2 ( 389.3)</p>
+                        <p class="ml-4">Regionşünaslıq ( Amerika üzrə ) Ə 226.8 ( 405.7)</p>
+                        <p class="ml-4">Regionşünaslıq ( Balkan ölkələri üzrə )  Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq (Böyük Britaniya üzrə)  Ə 237.9 ( 348.4)</p>
+                        <p class="ml-4">Regionşünaslıq ( Cənubi Amerika üzrə )  Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Çin üzrə )  Ə 244.3 ( 395.6)</p>
+                        <p class="ml-4">Regionşünaslıq ( ərəb ölkələri üzrə ) Ə 150.0 (393.1)</p>
+                        <p class="ml-4">Regionşünaslıq (Fransa üzrə) Ə 194.3 (404.0)</p>
+                        <p class="ml-4">Regionşünaslıq ( İsrail və Yaxın Şərq üzrə )  Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Mərkəzi və Şərqi Avropa üzrə ) Ə  206.4 ( 348.1)</p>
+                        <p class="ml-4">Regionşünaslıq ( Norveç üzrə) Ə 230.9 ( 355.2)</p>
+                        <p class="ml-4">Regionşünaslıq ( Qafqaz üzrə )  Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Türkiyə üzrə) Ə 206.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Yaponiya üzrə) Ə 150.0 ( 361.8)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər Ə 287.6 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Bakı Slavyan Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Regionşünaslıq ( Azərbaycan üzrə ) Ə  186.9 (-)</p>
+                        <p class="ml-4">Regionşünaslıq (Almaniya üzrə) Ə  150.0 ( 352.2)</p>
+                        <p class="ml-4">Regionşünaslıq ( Rusiya üzrə) Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Türkiyə üzrə ) Ə 183.7 ( -)</p>
+                        <p class="ml-4">Regionşünaslıq ( Polşa üzrə ) Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Çexiya üzrə) Ə  150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Balkan ölkələri üzrə) Ə 150.0 (-)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər Ə 268.1 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Bakı Mühəndislik Universiteti </b>
+                        
+                        <hr>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 316.6 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit ( tədris ingilis dilində ) Ə 200.0 (566.2)</p>
+                        <p class="ml-4">Maliyyə Ə  307.3 (-)</p>
+                        <p class="ml-4">Maliyyə ( tədris ingilis dilində ) Ə 256.9 (606.1)</p>
+                        <p class="ml-4">İqtisadiyyat  Ə 281.5 (-)</p>
+                        <p class="ml-4">İqtisadiyyat (tədris ingilis dilində)  Ə 200.0 (547.8 )</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 274.5 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi ( tədris ingilis dilində ) 185.1 (556.8)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi  Ə  284.2 (347.9)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi  (tədris ingilis dilində)  Ə 200.0 (349.8)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası</b>
+                        <hr>
+                        
+                        <p class="ml-4">Beynəlxalq münasibətlər Ə 540.8 (540.8)</p>
+                        <p class="ml-4">İqtisadiyyat  Ə 579.7 (579.7)</p>
+                        <p class="ml-4">Menecment  Ə 518.4 ( 521.2)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə  522.4 ( 522.4)</p>
+                        <p class="ml-4">Davamlı inkişafın idarə edilməsi Ə 504.2 ( 504.2)</p>
+                        
+                        
+                        
+                       <b class="ml-4"> “ADA” Univeristeti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Beynəlxalq münasibətlər ( tədris ingilis dilində) Ə 403.0</p>
+                        <p class="ml-4">İqtisadiyyat ( tədris ingilis dilində) Ə  405.8</p>
+                        <p class="ml-4">Biznesin idarə edilməsi ( tədris ingilis dilində ) Ə 499.1</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti </b>
+                        <hr>
+                        <p class="ml-4">Sosologiya  Ə  227.6 (296.1)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 328.6 (328.6)</p>
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Turizm və Menecment Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 272.6 (-)</p>
+                        <p class="ml-4">Maliyyə  Ə 273.2 (-)</p>
+                        <p class="ml-4">Menecment Ə 250.8 (500.5)</p>
+                        <p class="ml-4">Menecment ( tədris ingilis dilində )  Ə 200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə 246.5(-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 259.4 (-)</p>
+                        <p class="ml-4">Turizm və oteliçik ( tədris ingilis dilində ) Ə 378.7 (378.7)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə  347.4 (347.4)</p>
+                        <p class="ml-4">Nəqliyyat servisi ( sərnişin daşımaları nəqliyyatı üzrə ) Ə  235.8 ( 332.0)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Bədən Tərbiyəsi  və İdman Akademiyası</b>
+                        <hr>
+                        
+                        <p class="ml-4">İdman menecmenti və kommunikasiya Ə 200.0 (236.3)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Milli Aviasiya Akademiyası </b>
+                        <hr>
+                        
+                        <p class="ml-4">İqtisadiyyat Ə 453.2 (525.5)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Naxçıvan Dövlət Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Coğrafiya müəllimliyi Ə  282.7 (386.3)</p>
+                        <p class="ml-4">Beynəlxaql münasibətlər Ə 295.8 (508.4)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı  Ə 325.9 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 364.4 (568.4)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Q  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə 381.2 (525.8)</p>
+                        <p class="ml-4">İqtisadiyyat Q  200.0(-)</p>
+                        <p class="ml-4">Menecment  Ə 285.7 (511.4)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə 362.7   (362.7)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 308.9 (308.9)</p>
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Aqrar Universiteti ( Gəncə şəhəri )</b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Mühasibat uçotu və audit Ə  243.2 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Q  200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit( tədris ingilis dilində)  Ə 200.0 (567.7)</p>
+                        <p class="ml-4">Maliyyə Ə  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Q  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə  200.0 (527.0 )</p>
+                        <p class="ml-4">İqtisadiyyat Q  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat ( tədris ingilis dilində) Ə  200.0 ( 535.6)</p>
+                        <p class="ml-4">Menecment (alman proqramı) 200.0 (499.2)</p>
+                        <p class="ml-4">Marketinq  Ə  160.4 (477.0)</p>
+                        <p class="ml-4">Marketinq (tədris ingilis dili ) Ə 150.0 (479.6)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə  162.4 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Gəncə Dövlət Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Tarix və coğrafiya müəllimiyi Ə 289.6 (367.1)</p>
+                        <p class="ml-4">Coğrafiya müəllimi Ə  254.0 (395.1)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Ə 200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat  Ə  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Q  200.0 (-)</p>
+                        <p class="ml-4">Menecment Ə  200.0 (-)</p>
+                        <p class="ml-4">Marketinq   Ə  150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 160.0 (-)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə 200.0 (368.8)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 153.4 (231.4)</p>
+                        <p class="ml-4">Turizm və otelçilik Q  152.2 ( 248.9)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Texnologiya Universiteti  (Gəncə şəhəri )</b>
+                        
+                        <hr>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 200.0 (-)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Ə  200.0 (419.6)</p>
+                        <p class="ml-4">Menecment Ə 200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə 150 (-)</p>
+                        <p class="ml-4">Marketinq Q  161.2( -)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Q 177.2 (-)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə 200.0 (411.6)</p>
+                        <p class="ml-4">Kommersiya Ə 150.0 (-)</p>
+                        <p class="ml-4">Kommersiya  Q 167.2 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 150.0 (221.1 )</p>
+                        <p class="ml-4">Turizm və otelçilik  Q  150. (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Sumqayıt Dövlət Universiteti</b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi Ə 275.8 (367.9 )</p>
+                        <p class="ml-4">Coğrafiya müəllimliyi Ə  249.7 (385.0)</p>
+                        <p class="ml-4">Sosiologiya  Ə  200.0 (244.6)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı Ə 200.0 (-)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı Q 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 231.2 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Q  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Ə 228.8 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə 206.3 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Q 200(-)</p>
+                        <p class="ml-4">Menecment Ə 200.0 (-)</p>
+                        <p class="ml-4">Menecment Q 200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə 187.9 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi  Ə 199.0 (-)</p>
+                        <p class="ml-4">Biznesin  idarə edilməsi  Q 184.2 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Mingəçevir Dövlət Universiteti </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 200.0(-)</p>
+                        <p class="ml-4">Maliyyə  Ə  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Q 200.0 (-)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Ə 200.0 (414.0)</p>
+                        <p class="ml-4">Marketinq Ə 150.0 (543.6)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 163.5 (-)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə  200.0 (366.7 )</p>
+                        <p class="ml-4">Kommersiya Ə 150.0 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 208.7 (256.6 )</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Lənkəran Dövlət Universiteti</b>
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Tarix və coğrafiya müəllimliyi Ə 276.4 (369.3)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit  Ə 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Q 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Ə  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə  200.0 (572.1)</p>
+                        <p class="ml-4">Marketinq Ə 150.0 (-)</p>
+                        <p class="ml-4">Marketinq Q 150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi  150.0 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 150.0 (221.4)</p>
+                        <p class="ml-4">Turizm və otelçilik Q 150.0 (-)</p>
+                        <p class="ml-4">Subbakalavr üzrə 84.5 (88.6)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Kooperasiya Univeristeti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Dünya iqtisadiyyatı Ə  200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Q  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Ə  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə  200.0 (-)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Ə 200.0 (-)</p>
+                        <p class="ml-4">Menecment  Ə 200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə 150.0 (-)</p>
+                        <p class="ml-4">Marketinq Q  150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi  Ə 150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Q 150.0 (-)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə  200.0 (-)</p>
+                        <p class="ml-4">Kommersiya  Ə  150.0 (-)</p>
+                        <p class="ml-4">Kommersiya Q  150.0 (-)</p>
+                        <p class="ml-4">Coğrafiya Ə 200.0 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 150.0 (208.4)</p>
+                        <p class="ml-4">Turizm və otelçilik Q 150.0 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">“Azərbaycan” Universiteti </b>
+                        
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Regionşunaslıq (Avropa ölkələri üzrə) Ə 150.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit ( tədris ingilis dilində) Ə 200.0(-)</p>
+                        <p class="ml-4">Maliyyə Ə 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə ( tədris ingilis dilində) Ə 200.0(-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə 200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat ( tədris ingilis dilində ) Ə 200.0 (-)</p>
+                        <p class="ml-4">Menecment Ə  200.0 (-)</p>
+                        <p class="ml-4">Menecment (tədris ingilis dilində ) Ə  200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə 150.0 (-) </p>
+                        <p class="ml-4">Marketinq ( tədris ingilis dilində ) Ə  150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi (tədris ingilis dilində) Ə 150 (-)</p>
+                        <p class="ml-4">Kommersiya Ə 150.0 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 150.0(228.1)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">Qərbi Kaspi Universiteti </b>
+                        
+                        
+                        <p class="ml-4">Regionşunaslıq ( Qərbşünaslıq)  Ə 150.0 (369.6)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər  Ə 200.0 (-)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər Q 200.0 (-)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı Ə  200.0 (-)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı Q  200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 200.0 ( 621.1)</p>
+                        <p class="ml-4">Maliyyə Ə 200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat  Ə  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Q  200.0 (-)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Ə  200.0 (-)</p>
+                        <p class="ml-4">Menecment Ə  200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə 150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 169.2 (-)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə 200.0 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə  150.0 (247.8)</p>
+                        <p class="ml-4">Turizm və otelçilik Q 157.1 (273.7)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Xəzər Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Coğrafiya müəllimliyi Ə 200.0 (399.8)</p>
+                        <p class="ml-4">Regionşünaslıq ( Amerikaşünaslıq, Avropaşünaslıq, Asiyaşünaslıq, Şərqşünaslıq)  150.0 (353.4)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər ( tədris ingilis dilində)  Ə 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit (tədris ingilis dilində) Ə 200.0 (566.9)</p>
+                        <p class="ml-4">Maliyyə (tədris ingilis dilində) Ə 200.0 (616.3)</p>
+                        <p class="ml-4">İqtisadiyyat ( tədris ingilis dilində) Ə 200.0 (534.8)</p>
+                        <p class="ml-4">Menecment ( tədris ingilis dilində) Ə 200.0 (493.8)</p>
+                        <p class="ml-4">Marketinq ( tədris ingilis dilində)  Ə 150.0 (472.1)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi ( tədris ingilis dilində) Ə 150.0 (549.7)</p>
+                        <p class="ml-4">Turizm və otelçilik ( tədris ingilis dilində) Ə 150.0 (248.6)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Bakı Avrasiya Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Regionşünaslıq ( ABŞ və Kanada ) Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( ABŞ və Kanada) Q 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Avropa ölkələri ) Ə 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq ( Avropa ölkələri) Q 150.0 (-)</p>
+                        <p class="ml-4">Regionşünaslıq( Yaxın və Orta Şərq ) Ə 150.0 (-)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər Ə  200.0(-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit  Ə 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Q 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Ə 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Q  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə 200.0(-)</p>
+                        <p class="ml-4">İqtisadiyyat Q  200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə 150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 150 (-)</p>
+                        <p class="ml-4">Kommersiya Ə  150.0 (-)</p>
+                        <p class="ml-4">Kommersiya Q 150 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik 173.2 (228.8)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Bakı Qızlar Universiteti</b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Coğrafiya müəllimliyi Ə 200.0 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Odlar Yurdu Universiteti</b>
+                        
+                        <hr>
+                        <p class="ml-4">Beynəlxalq münasibətlər Ə 200.0 (-)</p>
+                        <p class="ml-4">Dünya iqtisadiyyatı Ə 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit  Q 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Q  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Ə 200.0 (-)</p>
+                        <p class="ml-4">Menecment Ə 200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə 150.0 ( -)</p>
+                        <p class="ml-4">Subbakalavrlar üzrə 51.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Q 162.8 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 150(-)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə 200.0 (-)</p>
+                        <p class="ml-4">Kommersiya Ə 150.0 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Q 150.0 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 150.0 (206.0 )</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Bakı Biznes Universiteti </b>
+                        
+                        <hr>
+                        <p class="ml-4">Dünya iqtisadiyyatı Ə 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Q 200.0(-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Q  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə  Ə 200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat (tədris ingilis dilində) Ə  200.0 (535.9)</p>
+                        <p class="ml-4">Sənayenin təşkili və idarə olunması Ə 200.0 (-)</p>
+                        <p class="ml-4">Menecment Ə 200.0 (-)</p>
+                        <p class="ml-4">Marketinq Q 162.3 (-)</p>
+                        <p class="ml-4">Marketinq Ə  150.0 (-)</p>
+                        <p class="ml-4">Biznesin idarə edilməsi Ə 154.6 (-)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə 200.0 (408.1)</p>
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Naxçıvan Universiteti ( Naxçıvan şəhəri )</b>
+                        
+                        <hr>
+                        <p class="ml-4">Coğrafiya müəllimliyi Ə 200.0 (-)</p>
+                        <p class="ml-4">Beynəlxalq münasibətlər Ə 200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Ə 229.3 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə 200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Q 200 (-)</p>
+                        <p class="ml-4">Coğrafiya Ə 200.0 (-)</p>
+                        <p class="ml-4">Turizm və otelçilik Ə 179.1( 214.8)</p>
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Azərbaycan Əmək və Sosial Münasibətlər Akademiyası</b>
+                        <hr>
+                        
+                        <p class="ml-4">Mühasibat uçotu və audit Q  200.0 (-)</p>
+                        <p class="ml-4">Mühasibat uçotu və audit Ə 200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Q  200.0 (-)</p>
+                        <p class="ml-4">Maliyyə Ə 200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Ə  200.0 (-)</p>
+                        <p class="ml-4">İqtisadiyyat Q  200.0 (-)</p>
+                        <p class="ml-4">Marketinq Ə  150.0 (-)</p>
+                        <p class="ml-4">Dövlət və bələdiyyə idarəetməsi Ə 200.0 (-)</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="dropdown">
+                    <button class="btn btn-outline-primary btn-lg dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      3-ci grup
+                    </button>
+                    <div class="dropdown-menu scrolist " aria-labelledby="dropdownMenuButton">
+                       <b class="ml-4"> Bakı Dövlət Universiteti </b>
+                         <hr>
+
+
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı müəllimliyi Ə 549.3 (549.3)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 519.9 (519.9)</p>
+                        <p class="ml-4">Korreksiyaedici təlim Ə 427.8 (427.8)</p>
+                        <p class="ml-4">Təhsildə sosial-psixoloji xidmət Ə 450.1 (450.1)</p>
+                        <p class="ml-4">Filologiya(Azərbaycan dili və ədəbiyyat) Ə 470.5 ( 488.2)</p>
+                        <p class="ml-4">Filologiya (Azərbaycan dili və ədəbiyyat) Q 395.1 (-)</p>
+                        <p class="ml-4">Filologiya ( alman dili və ədəbiyyat) Ə  399.6 (509.1)</p>
+                        <p class="ml-4">Filologiya (fransız dili və ədəbiyyat) Ə  348.3 ( 567.7)</p>
+                        <p class="ml-4">Filologiya ( ərəb dili və ədəbiyyat) Ə 361.2(-)</p>
+                        <p class="ml-4">Filologiya ( fars dili və ədəbiyyat)  Ə 339.5 (-)</p>
+                        <p class="ml-4">Filologiya ( türk dili və ədəbiyyat) Ə 397.7 (-)</p>
+                        <p class="ml-4">Fəlsəfə Ə 433.6 (433.6)</p>
+                        <p class="ml-4">Tərcümə (fars dili üzrə) Ə 329.1 (-)</p>
+                        <p class="ml-4">Tərcümə (ərəb dili üzrə) Ə 378.4 (494.9)</p>
+                        <p class="ml-4">Jurnalistika Ə 325.7 (424.4)</p>
+                        <p class="ml-4">Jurnalistika Q 272.1 (-)</p>
+                        <p class="ml-4">Jurnalistika ( tədris ingilis dilində) Ə 473.4 (473.4)</p>
+                        <p class="ml-4">Kitabşünaslıq Ə 346.9 (381.5)</p>
+                        <p class="ml-4">Kitabşünaslıq Q 309.3 (-)</p>
+                        <p class="ml-4">Tarix Ə 495.1 (496.5)</p>
+                        <p class="ml-4">Tarix Q 425.2 (557.5)</p>
+                        <p class="ml-4">Tarix ( tədris ingilis dili ) Ə 550.3 (550.3 )</p>
+                        <p class="ml-4">Antropologiya Ə 442.4 (453.1)</p>
+                        <p class="ml-4">Politologiya Ə  487.2 (487.2)</p>
+                        <p class="ml-4">Hüquqşünaslıq Ə  561.9 (617.0)</p>
+                        <p class="ml-4">Hüquqşünaslıq Q 532.6 (-)</p>
+                        <p class="ml-4">Hüquqşünaslıq (tədris ingilis dilində) Ə 650.4 (650.4)</p>
+                        <p class="ml-4">Kitabxanaçılıq və informasiya Ə 344.6 (385.0)</p>
+                        <p class="ml-4">Kitabxanaçılıq və informasiya Q 332.5 (389.2)</p>
+                        <p class="ml-4">Kitabxanaçılıq və informasiya (tədris ingilis dilində) Ə 377.5 (396.5)</p>
+                        <p class="ml-4">Dövlət və ictimai münasibətlər Ə 505.2 (609.1)</p>
+                        <p class="ml-4">Dövlət və ictimai münasibətlər Q 470.8 (-)</p>
+                        <p class="ml-4">Dövlət və ictimai münasibətlər (tədris ingilis dilində) Ə 542.7 (606.4)</p>
+                        <p class="ml-4">Sosial iş Ə 504.4 ( 504.4)</p>
+                        <p class="ml-4">Sosial iş Q 398.2( 413.3)</p>
+                        <p class="ml-4">Sosial iş (tədris ingilis dilində) Ə 525.8 (525.8)</p>
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyat müəllimliyi (Qazax müəllimliyi) Ə 354.7( 534.8)</p>
+                        <p class="ml-4">Tarix müəllimliyi ( Qazax müəllimliyi) Ə  360.3 (499.5)</p>
+                        <p class="ml-4">İbtidai sinif müəllimiyi ( Qazax filialı) 342.5 (444.7)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə (Qazax filialı) Ə 303.1 (371.7)</p>
+                        <p class="ml-4">Təhsildə sosial psixoloji xidmət ( Qazax filialı) 309.3 (362.1)</p>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili və ədəbiyyat, Qazax filialı) 312.4 (-)</p>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili və ədəbiyyat, Qazax filialı) Q 313.2 (-)</p>
+                        <p class="ml-4">Tarix ( Qazax filialı) Ə 341.8 (-)</p>
+                        <p class="ml-4">Tarix (Qazax filialı ) Q  314.4 (-)</p>
+                        <p class="ml-4">Sosial iş (Qazax filialı) Ə  321.3 (329.4 )</p>
+                        <p class="ml-4">Sosial iş ( Qazax filialı) Q  305.3 (337.2)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Pedaqoji Universiteti </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyat müəllimliyi Ə 502.3 (502.3)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi (fransız dili üzrə)  Ə 367.3 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili üzrə) Ə 471.1 (537.0 )</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 462.7 (497.8)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə 440.0 (443.0)</p>
+                        <p class="ml-4">Korreksiyaedici təlim Ə 374.5 (393.4)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə 393.8 .(393.8)</p>
+                        <p class="ml-4">Təhsildə sosial- psixoloji xidmət Ə  412.2 (412.2)</p>
+                        <p class="ml-4">Sosial iş Ə  464.8 (464.8)</p>
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyat müəllimliyi ( Şamaxı filialı) Ə 371.3 (504.5)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi (Şamaxı filialı) Ə  328.4 (450.9)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə (Şamaxı filialı) Ə 292.1 (363.8)</p>
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı müəllimliyi ( Şəki filialı) Ə  386.5 (499.4)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili üzrə, Şəki filialı) Ə 366.3 (535.0)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( fransız dili üzrə, Şəki filialı) Ə 272.8 (-)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi ( Şəki filialı) Ə 347.8 (451.9)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə ( Şəki filialı) Ə 312.7 (355.3)</p>
+                        <p class="ml-4">Təhsildə sosial psixoloji-xidmət ( Şəki filialı) Ə  333.9 (364.0)</p>
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı müəllimliyi ( Ağcabədi filialı) Ə  375.4 (496.3)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi (Ağcabədi filialı) Ə  329.1 (450.0)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə ( Ağcabədi filialı) Ə 287.9 (356.5)</p>
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyat müəllimliyi ( Cəlilabad filialı) Ə 357.3 (507.8)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi ( Cəlilabad filialı) Ə 311.3 (448.7)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə ( Cəlilabad filialı) Ə 268.8 (363.4)</p>
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyat müəllimliyi ( Quba filialı) Ə 376.8 (499.6)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi ( Quba filialı) Ə 319.8 (447.3)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə ( Quba filialı) Ə 292.1 (365.0)</p>
+                        <p class="ml-4">Təhsildə sosial –psixoloji xidmət (Quba filialı) Ə 310.0 (369.9)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan dillər Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Dil və ədəbiyyat müəllimliyi ( alman dili üzrə) Ə 443.0 (446.4)</p>
+                        <p class="ml-4">Dil və ədəbiyyat müəllimliyi ( fransız dili üzrə) Ə 428.0 (435.2)</p>
+                        <p class="ml-4">Dil və ədəbiyyat müəllimliyi ( ingilis dili üzrə) Ə 571.9 (571.9)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( alman dili üzrə) Ə 430.3 (545.9)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi (fransız dili) Ə 400.2 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili) Ə  464.6 (527.4)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi ( tədris ingilis dilində) Ə 500.7 (500.7)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə( tədris ingilis dilində) Ə 441.8 (441.8)</p>
+                        <p class="ml-4">Filologiya ( alman dili və ədəbiyyat) Ə 407.8 (-)</p>
+                        <p class="ml-4">Filologiya (Azərbaycan dili və ədəbiyyat) Ə 454.1 (488.4)</p>
+                        <p class="ml-4">Filologiya ( fransiz dili və ədəbiyyat) Ə 387.7(-)</p>
+                        <p class="ml-4">Filologiya ( ingilis dili və ədəbiyyatı) Ə  463.3 (491.2)</p>
+                        <p class="ml-4">Filologiya ( ispan dili və ədəbiyyatı) Ə 381.3 (504.3)</p>
+                        <p class="ml-4">Tərcümə ( Azərbaycan dili-alman dili) Ə 455.8 (484.8)</p>
+                        <p class="ml-4">Tərcümə  (Azərbaycan dili –fransız dili) Ə 427.3 (-)</p>
+                        <p class="ml-4">Tərcümə ( Azərbyacan dili- ingilis dili ) Ə 553.2 ( 553.2)</p>
+                        <p class="ml-4">Tərcümə ( Azərbaycan dili- ispan dili) Ə 527.6 (527.6)</p>
+                        <p class="ml-4">Tərcümə ( Azərbaycan dili – italyan dili) Ə 489.5 (493.9)</p>
+                        <p class="ml-4">Tərcümə ( Azərbaycan –Koreya dili ) Ə 547.9 (547.9)</p>
+                        <p class="ml-4">Jurnalistika ( tədris ingilis dilində) Ə 274.8 (424.3)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Bakı Slavyan Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyat müəllimliyi Ə 456.0 ( 495.5)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( alman dili üzrə) Ə 397.3 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( fransız dili üzrə) Ə 371.6 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili üzrə) Ə 463.1 (541.2 )</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( rus dili üzrə) Ə 355.0 (-)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə  438.2 (442.4)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə 401.7 (401.9)</p>
+                        <p class="ml-4">Təhsildə sosial-psixoloji xidmət Ə  422.2 (424.0)</p>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili və ədəbiyyatı) Ə 440.5 (491.3)</p>
+                        <p class="ml-4">Filologiya  ( Azərbaycan dili və ədəbiyyatı) Q 376.1 (-)</p>
+                        <p class="ml-4">Filologiya( ingilis dili və ədəbiyyatı) Ə 439.6(495.9)</p>
+                        <p class="ml-4">Tərcümə ( Azərbaycan dili-rus dili)  346.2 (-)</p>
+                        <p class="ml-4">Tərcümə ( bolqar dili) Ə  322.1(-)</p>
+                        <p class="ml-4">Tərcümə (ingilis dili) Ə 452.6 (484.4)</p>
+                        <p class="ml-4">Tərcümə (yunan dili) Ə 326.0 (-)</p>
+                        <p class="ml-4">Jurnalistika Ə  298.1 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası</b>
+                        
+                        <hr>
+                        <p class="ml-4">Politologiya Ə  498.8 (498.8)</p>
+                        <p class="ml-4">Hüquqşünaslıq Ə 640.9 (640.9)</p>
+                        <p class="ml-4">Dövlət və ictimai münasibətlər Ə  602.8 (602.8)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">“ADA”  Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Hüquqşünaslıq ( tədris ingilis dilində) Ə 551.0</p>
+                        <p class="ml-4">Dövlət və ictimai münasibətlər ( tədris ingilis dilində)  Ə 496.6</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Kitabxanaçılıq və informasiya Ə  328.4 (-)</p>
+                        <p class="ml-4">Muzeyşünaslıq, arxiv işi və abidələrin qorunması Ə 330.2 (341.3)</p>
+                        <p class="ml-4">Sənətşünaslıq  Ə 317.0 (317.0)</p>
+                        <p class="ml-4">Teatrşünaslıq Ə 307.4 (310.1)</p>
+                        <p class="ml-4">Bədii yaradıcılıq və ekran drammaturgiyası Ə 324.1 (336.0)</p>
+                        <p class="ml-4">Kinoşünaslıq Ə   309.5 (329.6)</p>
+                        <p class="ml-4">Sosial iş Ə  418.9 (418.9)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Dövlət Rəssamlıq Akademiyası </b>
+                        <hr>
+                        
+                        <p class="ml-4">Sənətşünaslıq Ə  269.8 (282.2)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Turizm və Menecment Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Tərcümə ( ingilis- Azərbaycan) Ə  441.7 (496.2)</p>
+                        <p class="ml-4">Muzeyşünaslıq, arxiv işi və abidələrin qorunması Ə  354.1 (354.1)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Bakı Xoreoqrafiya Akademiyası </b>
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Teatrşünaslıq Ə 289.5 (299.8)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Milli Aviasiya Akademiyası</b>
+                        <hr>
+                        <p class="ml-4">Hüquqşünaslıq  Ə 555.0 ( 623.9)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Respublikası Dövlət Gömrük Komitəsinin Akademiyası </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Hüquqşünaslıq Ə 546.0 (619.2)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Naxçıvan Dövlət Universiteti</b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı müəllimliyi  Ə  450.4 (495.5)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili üzrə) Ə  533.3 (533.3)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( fransız dili üzrə) Ə 272.3 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi (alman dili üzrə) Ə 272.2 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( rus dili üzrə) Ə 289.8 (-)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 473.0(499.3)</p>
+                        <p class="ml-4">Tərcümə (ərəb- Azərbyacan dilləri) Ə 230.8 (-)</p>
+                        <p class="ml-4">Tərcümə ( ingilis- Azərbaycan dilləri)Ə 457.2 (483.9 )</p>
+                        <p class="ml-4">Tərcümə ( fars-Azərbaycan dilləri)  Ə 210.9 (-)</p>
+                        <p class="ml-4">Jurnalistika  Ə 200.0 (443.2)</p>
+                        <p class="ml-4">Tarix  Ə 431.2 (531.7)</p>
+                        <p class="ml-4">Tarix Q 359.7 (-)</p>
+                        <p class="ml-4">Hüquqşünaslıq Ə 544.9  (623.7 )</p>
+                        <p class="ml-4">Hüquqşünaslıq Q 503.6 (-)</p>
+                        <p class="ml-4">Kitabxanaçılıq və informasiya Ə 270.3 (407.1)</p>
+                        <p class="ml-4">Kitabxanaçılıq və informasiya Q 270.3 (-)</p>
+                        <p class="ml-4">Müzeyşünaslıq, arxiv işi və abidələrin qorunması Ə 269.7 (337.9)</p>
+                        <p class="ml-4">Sosial iş Ə  444.8 (444.8)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Naxçıvan Müəllimlər İnstitutu </b>
+                        
+                        <hr>
+                        <p class="ml-4">Xarici dil müəllimliyi ( rus dili) Ə 263.1 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili) Ə 410.7 (527.8)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 425.6 (-)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə 275.6 (444.0)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə 261.9 (349.7)</p>
+                        <p class="ml-4">Təhsildə sosial-psixoloji vəziyyət Ə  264.7(363.4)</p>
+                        <p class="ml-4">Kitabxanaçılıq və informasiya Ə  253.6 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Gəncə Dövlət Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı Ə 412.8 (497.1)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi (ingilis dili ) Ə 410.5 (534.1)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( rus dili ) Ə 336.5 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi (alman dili) Ə 328.2(-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi( fransız dili) Ə  314.6 (-)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 408.2 (499.6)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə  430.6(444.8)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə 358.6 (364.5)</p>
+                        <p class="ml-4">Təhsildə sosial-psixoloji xidmət Ə  366.6 (367.5)</p>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili və ədəbiyyat) Ə 371.4 (-)</p>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili  və ədəbiyyat) Q  340.0 (-)</p>
+                        <p class="ml-4">Tərcümə ( ingilis dili) Ə 386.7 (488.7)</p>
+                        <p class="ml-4">Tarix Ə  404.0 (496.7 )</p>
+                        <p class="ml-4">Tarix Q 344.9 (-)</p>
+                        <p class="ml-4">Sosial iş Ə  385.0 (385.0)</p>
+                        <p class="ml-4">Sosial iş Q 327.4 (338.1)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Sumqayıt Dövlət Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyat müəllimliyi Ə 409.4 (498.0)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi (ingilis dili) Ə  434.3 (-)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 412.9 (-)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə 393.4 (449.0)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə  371.0 (371.0)</p>
+                        <p class="ml-4">Təhsildə sosial-psixoloji xidmət Ə  373.0 (373.4)</p>
+                        <p class="ml-4">Təhsildə sosial-psixoloji xidmət Q 355.4 (362.1)</p>
+                        <p class="ml-4">Filologiya (Azərbaycan dili və ədəbiyyat üzrə) Ə  386.7 (494.7)</p>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili və ədəbiyyat üzrə ) Q 356.3 (-)</p>
+                        <p class="ml-4">Tarix Ə  409.0 (-)</p>
+                        <p class="ml-4">Tarix Q 358.9 (-)</p>
+                        <p class="ml-4">Politologiya Ə  397.0 (411.7)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Mingəçevir Dövlət Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyat müəllimliyi Ə  408.2 (498.4)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili üzrə) Ə 411.3 (580.5)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 405.1 (501.8)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə 370.2 (442.5)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə  321.2 347.5)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Lənkəran Dövlət Universiteti</b>
+                        
+                        <hr>
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı müəllimliyi Ə 390.7 (495.9)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili üzrə) Ə 359.9 (-)</p>
+                        <p class="ml-4">müəllimliyi </p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə 323.0(444.9)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə 281.3 (354.5)</p>
+                        <p class="ml-4">Təhsildə sosial psixoloji xidmət Ə 314.3 (366.5)</p>
+                        <p class="ml-4">Tərcümə (ingilis dili üzrə) Ə  314.6(-)</p>
+                        <p class="ml-4">Muzeyşünaslıq, arxiv işi və abidələrin qorunması Ə  271.0 (327.3)</p>
+                        <p class="ml-4">Muzeyşünaslıq, arxiv işi və abidələrin qorunması Q  271.1(-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Azərbaycan Kooperasiya Universiteti </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Tərcümə (ingilis dili üzrə) Q 288.4 (-)</p>
+                        <p class="ml-4">Tərcümə (ingilis dili üzrə) Ə 263.9 (-)</p>
+                        <p class="ml-4">Sosial iş Ə  274.6 (342.6)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Azərbaycan İlahiyyat İnstitutu </b>
+                        <hr>
+                        
+                        <p class="ml-4">Dinşünaslıq Ə  292.1(292.1)</p>
+                        <p class="ml-4">İslamşünaslıq Ə  200.2 (200.2)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">“Azərbaycan” Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Filologiya (Azərbaycan dili və ədəbiyyatı) Ə 302.0 (-)</p>
+                        <p class="ml-4">Filologiya ( ingilis dili və ədəbiyyatı) Ə  288.0 (-)</p>
+                        <p class="ml-4">Tərcümə (ingilis dili ) Ə 278.7 (549.6)</p>
+                        <p class="ml-4">Tarix Ə  309.5 (-)</p>
+                        <p class="ml-4">Sosial iş Ə  284.8 (329.0)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Qərbi Kaspi Universiteti </b>
+                        
+                        <hr>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili və ədəbiyyatı) Ə 286.2 (-)</p>
+                        <p class="ml-4">Filologiya (ingilis dili və ədəbiyyatı) Ə 276.2 (-)</p>
+                        <p class="ml-4">Fəlsəfə Ə  258.5 (326.0)</p>
+                        <p class="ml-4">Tərcümə (ingilis, alman, fransız, Çin dilləri üzrə) Ə 329.5 (552.2)</p>
+                        <p class="ml-4">Tarix Ə  286.2(-)</p>
+                        <p class="ml-4">Tarix Q 296.4 (-)</p>
+                        <p class="ml-4">Politologiya Ə  272.2 (385.3)</p>
+                        <p class="ml-4">Politologiya Q 278.5(-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Xəzər Universiteti</b>
+                        
+                        <hr>
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı müəllimliyi Ə 318.2 (496.7)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi ( ingilis dili, tədris ingilis dilində) Ə 349.4 (527.8)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 285.9 (498.2)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə 258.7 (455.8)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi ( tədris ingilis dilində) Ə  259.4 (450.5 )</p>
+                        <p class="ml-4">Filologiya (Azərbaycan dili və ədəbiyyatı) Ə  248.4 (-)</p>
+                        <p class="ml-4">Filologiya (ingilis dili və ədəbiyyatı, tədris ingilis dilində) Ə 248.5 (-)</p>
+                        <p class="ml-4">Tərcümə ( ingilis, ərəb, fars və Çin dilləri üzrə, tədris ingilis dilində) Ə 270.6 (482.9 )</p>
+                        <p class="ml-4">Politologiya ( tədris ingilis dilində) Ə  304.2 (433.1)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Bakı Avrasiya Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Filologiya (Azərbaycan dili və ədəbiyyat) Ə 311.2 (-)</p>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili və ədəbiyyatı ) Q 313.8 (-)</p>
+                        <p class="ml-4">Filologiya (ingilis dili və ədəbiyyatı) Ə  288.2 (-)</p>
+                        <p class="ml-4">Filologiya (ingilis dili və ədəbiyyatı) Q 297.1 (-)</p>
+                        <p class="ml-4">Filologiya (türk dili və ədəbiyyatı) Ə  268.5 (-)</p>
+                        <p class="ml-4">Tərcümə (ingilis dili ) Ə  295.7 (-)</p>
+                        <p class="ml-4">Tərcümə (alman dili ) Ə 285.1 (-)</p>
+                        <p class="ml-4">Tərcümə (fransız dili) Ə  274.3 (-)</p>
+                        <p class="ml-4">Tərcümə (ərəb dili) Ə 259.9 (-)</p>
+                        <p class="ml-4">Sosial iş Ə 322.3 (330.7)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Bakı Qızlar Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı müəllimliyi Ə 341.0 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi (ingilis dili) Ə 326.1 (-)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə  316.1 (-)</p>
+                        <p class="ml-4">İbtidai sinif müəllimliyi Ə 314.5 (-)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə 287.8 (356.8 )</p>
+                        <p class="ml-4">Təhsildə sosial-psixoloji xidmət Ə  286.5 (362.3)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                     <b class="ml-4">  “Odlar Yurdu” Universiteti</b>
+                        
+                        <hr>
+                        <p class="ml-4">Xarici dil müəllimliyi (ingilis dili üzrə) Ə 349.8 (-)</p>
+                        <p class="ml-4">Məktəbəqədər təlim və tərbiyə Ə 268.1 (373.3)</p>
+                        <p class="ml-4">Təhsildə sosial psixoloji xidmət Ə  275.4 (363.8)</p>
+                        <p class="ml-4">Filologiya ( Azərbaycan dili və ədəbiyyatı ) Ə 302.4 (-)</p>
+                        <p class="ml-4">Tərcümə ( ingilis dili üzrə) Ə 285.9 (-)</p>
+                        <p class="ml-4">Sosial iş Ə 291.8 (337.5)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4"> Bakı Biznes Universiteti</b>
+                        
+                        <hr>
+                        <p class="ml-4">Tərcümə (ingilis dili) Ə 278.1 (492.4)</p>
+                        <p class="ml-4">Sosial iş Ə 303.8 (339.0)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">“Naxçıvan” Universiteti  (Naxçıvan şəhəri) </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Azərbaycan dili və ədəbiyyatı müəllimliyi Ə 270.2 (-)</p>
+                        <p class="ml-4">Xarici dil müəllimliyi (ingilis dili ) Ə 260.2 (-)</p>
+                        <p class="ml-4">Tarix müəllimliyi Ə 325.1(516.8)</p>
+                        <p class="ml-4">Filologiya (alman dili və ədəbiyyatı) Ə 239.2(-)</p>
+                        <p class="ml-4">Dinşünaslıq Ə 224.9 (241.3)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Azərbaycan Əmək və Sosial Münasibətlər Akademiyası </b>
+                        <hr>
+                        
+                        <p class="ml-4">Sosial iş Ə 290.3 ( 326.9)</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown">
+                    <button class="btn btn-outline-primary btn-lg dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      4-ci grup
+                    </button>
+                    <div class="dropdown-menu scrolist" aria-labelledby="dropdownMenuButton">
+                       <b class="ml-4"> Bakı Dövlət Universiteti</b>
+                         <hr>
+
+
+                        <p class="ml-4">Biologiya müəllimliyi  Ə 389.4 (389.4)</p>
+                        <p class="ml-4">Kimya müəllimliyi Ə 388.2 (443.8)</p>
+                        <p class="ml-4">Psixologiya  Ə 460.1 (460.1)</p>
+                        <p class="ml-4">Psixologiya Q 329.6 (376.9)</p>
+                        <p class="ml-4">Psixologiya ( tədris ingilis dilində) Ə 514.1 (514.1)</p>
+                        <p class="ml-4">Kimya Ə 413.7 (413.7)</p>
+                        <p class="ml-4">Kimya ( tədris ingilis dilində) Ə 514.1 (514.1)</p>
+                        <p class="ml-4">Bilologiya Ə 402.6 (402.6)</p>
+                        <p class="ml-4">Biologiya Q 280.7 (-)</p>
+                        <p class="ml-4">Biologiya ( tədris ingilis dilində)Ə  505.1 (505.1)</p>
+                        <p class="ml-4">Ekologiya Ə 304.5 (310.5)</p>
+                        <p class="ml-4">Ekologiya  Q 248.0 (257.7)</p>
+                        <p class="ml-4">Ekologiya ( tədris ingilis dilində) Ə  337.4 (337.4)</p>
+                        <p class="ml-4">Su bioehtiyatları və akvabitkilər Ə 207.8 (256.9)</p>
+                        <p class="ml-4">Kimya və bilologiya müəllimliyi ( Qazax filialı) Ə 221.0(387.6)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Tibb Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Əczaçılıq Ə  526.7 (526.7)</p>
+                        <p class="ml-4">Müalicə işi Ə  575.4 (578.7)</p>
+                        <p class="ml-4">Tibbi profilaktika Ə 552.9 (552.9)</p>
+                        <p class="ml-4">Stomatologiya Ə  563.7 (563.8)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Pedaqoji Universiteti </b>
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Biologiya müəllimliyi Ə 324.0 (385.6)</p>
+                        <p class="ml-4">Kimya müəllimliyi Ə 334.6 (449.9)</p>
+                        <p class="ml-4">Kimya və biologiya müəllimliyi Ə  418.3 (418.3)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Azərbaycan Dövlət İqtisad Universiteti</b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Ekologiya Ə  280.8 (280.8)</p>
+                        <p class="ml-4">Ekologiya Q 241.0 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4"> Bakı Mühəndislik Universiteti </b>
+                        
+                        
+                        <hr>
+                        <p class="ml-4">Biologiya müəllimliyə ( tədris ingilis dilində) Ə 304.3 (387.0)</p>
+                        <p class="ml-4">Kimya müəllimliyi (tədris ingilis dilində) Ə 323.8 (450.2)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Azərbaycan Dövlət Bədən Tərbiyəsi və İdman Akademiyası </b>
+                        
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Bədən tərbiyəsi və idmanda reabilitasiya Ə 337.1 (337.1)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Naxçıvan  Dövlət Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Biologiya müəllimliyi Ə 228.6 (388.7)</p>
+                        <p class="ml-4">Kimya müəllimliyi Ə 249.2 (446.6)</p>
+                        <p class="ml-4">Biologiya Ə 256.6 (257.7)</p>
+                        <p class="ml-4">Biologiya Q 200.0 (-)</p>
+                        <p class="ml-4">Baytarlıq  Ə  150.0 (152.2)</p>
+                        <p class="ml-4">Əczaçılıq Ə 490.9 (490.9)</p>
+                        <p class="ml-4">Müalicə işi Ə 549.0 (581.5)</p>
+                        <p class="ml-4">Tibbi profilaktika Ə 520.5 (522.2)</p>
+                        <p class="ml-4">Stomatologiya Ə 542.5 (545.5)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4"> Naxçıvan Müəllimlər İnstitutu </b>
+                        
+                        <hr>
+                        <p class="ml-4">Biologiya müəllimliyə Ə 200.0 (387.0)</p>
+                        <p class="ml-4">Psixologiya Ə 200.0 (313.4)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Aqrar Universiteti ( Gəncə şəhəri) </b>
+                        
+                        <hr>
+                        <p class="ml-4">Ekologiya Ə 216.0 (216.0)</p>
+                        <p class="ml-4">Ekologiya Q 201.0 (201.0)</p>
+                        <p class="ml-4">Baytarlıq  Ə 181.9 (181.9)</p>
+                        <p class="ml-4">Baytarlıq ( tədris ingilis dilində) Ə 150.0(197.4)</p>
+                        <p class="ml-4">Su bioehtiyatları və akvabitkilər Ə 158.3 (158.3)</p>
+                        <p class="ml-4">Bitki mühafizəsi Ə 150.0 (150.4)</p>
+                        <p class="ml-4">Bağçılıq və tərəvəzçilik Ə  150.0 (150.8)</p>
+                        <p class="ml-4">Əczaçılıq Ə 246.5 (246.5)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Gəncə Dövlət Universiteti </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Biologiya müəllimliyi Ə 276.5 (-)</p>
+                        <p class="ml-4">Kimya müəllimliyi Ə 255.4 (444.6)</p>
+                        <p class="ml-4">Kimya və biologiya müəllimliyi Ə 297.1 (389.6)</p>
+                        <p class="ml-4">Psixologiya Ə  253.1 (290.8)</p>
+                        <p class="ml-4">Kimya Ə 225.6 (225.6)</p>
+                        <p class="ml-4">Biologiya Ə  241.2 (275.6)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Sumqayıt Dövlət Universiteti </b>
+                        
+                        
+                        
+                        <p class="ml-4">Biologiya müəllimliyi Ə 267.8 (-)</p>
+                        <p class="ml-4">Kimya və biologiya müəllimliyi Ə  280.7 (403.4)</p>
+                        <p class="ml-4">Psixologiya Ə 276.0 (298.5)</p>
+                        <p class="ml-4">Psixologiya Q  229.7 (313.6)</p>
+                        <p class="ml-4">Kimya Ə 255.8 (303.2)</p>
+                        <p class="ml-4">Biologiya Ə 260.9 (316.3)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Mingəçevir Dövlət Universiteti</b>
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Ekologiya Ə 150.0 (208.5)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml4"> Lənkəran Dövlət Universiteti </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Kimya və biologiya müəllimliyi Ə  256.7 (394.5)</p>
+                        <p class="ml-4">Ekologiya Ə 150.0 (210.4)</p>
+                        <p class="ml-4">Ekologiya Ə 150.0 (253.7)</p>
+                        <p class="ml-4">Baytarlıq Ə 150.0 (153.2)</p>
+                        <p class="ml-4">Bağçalıq və tərəvəzçilik  Ə 150.0 (168.5)</p>
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Kooperasiya Universiteti </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Psixologiya Ə 200.0 (-)</p>
+                        <p class="ml-4">Ekologiya Ə 150.0 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">Qərbi Kaspi Universiteti</b> 
+                        <hr>
+                     
+                        <p class="ml-4">Psixologiya Ə  298.8 (300.7)</p>
+                        <p class="ml-4">Psixologiya Q  200.0 (354.6)</p>
+                        <p class="ml-4">Biologiya Ə 235.2 (254.2)</p>
+                        <p class="ml-4">Ekologiya Ə 213.7 (236.4)</p>
+                        <p class="ml-4">Su bioehtiyatları və akvabitkilər Ə  200.0 (289.0)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Xəzər Universiteti</b>
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Biologiya müəllimliyi Ə  200.0 (-)</p>
+                        <p class="ml-4">Kimya müəllimliyi Ə 200.0 (-)</p>
+                        <p class="ml-4">Kimya və biologiya müəllimliyi Ə 284.3 (386.4)</p>
+                        <p class="ml-4">Psixologiya ( tədris ingilis dilində) Ə 395.7 (401.1)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Bakı Qızlar Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Psixologiya Ə 200.0 (290.6)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Odlar Yurdu Universiteti </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Psixologiya Ə 200.0 (314.9)</p>
+                        <p class="ml-4">Biologiya Ə 200.0 (231.3)</p>
+                        <p class="ml-4">Subbakalavrlar üzrə 91.3 (92.7)</p>
+                        <p class="ml-4">Ekologiya Ə `178.6 (280.9)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> “Naxçıvan” Universiteti ( Naxçıvan şəhəri )</b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Kimya və biologiya müəllimliyi Ə 200.0 (-)</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="dropdown">
+                    <button class="btn btn-outline-primary btn-lg dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      5-ci grup
+                    </button>
+                    <div class="dropdown-menu scrolist" aria-labelledby="dropdownMenuButton">
+                        <b class="ml-4">Bakı Dövlət Universiteti</b>
+                       <hr>
+
+                        <p class="ml-4">Fiziki tərbiyə və çağırışaqədərki hazırlıq( qızlar üçün fiziki tərbiyə) müəllimliyi ( Qazax filialı) Ə 82.6 (112.6)</p>
+                        <p class="ml-4">Azərbaycan Memarlıq və  İnşaat Univesiteti</p>
+                        <p class="ml-4">Dizayn Ə 152.8 (154.5)</p>
+                        <p class="ml-4">Dizayn ( tədris ingilis dilində) Ə 181.3 (181.3)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Dövlət Pedaqoji Universiteti </b>
+                        
+                        <hr>
+                        <p class="ml-4">Fiziki tərbiyə və çağırışaqədərki hazırlıq (qızlar üçün fiziki tərbiyə) müəllimliyi Ə  88.9 (113.1)</p>
+                        <p class="ml-4">Musiqi müəllimliyi (fortepiano, qarmon , tar, saz, kamança, qanun, violin, klarnet, balaban, nağara, vokal) Ə 60.0 (69.1)</p>
+                        <p class="ml-4">Təsviri incəsənət müəllimliyi  Ə 81.4 (107.4)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Azərbayacan Dövlət İqtisad Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Dizayn Ə 116.4 (154.2)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Bakı Mühəndislik Universiteti</b>
+                        <hr>
+                        <p class="ml-4">Dizany Ə 120.3 (157.0)</p>
+                        <p class="ml-4">Dizayn (tədris ingilis dilində) Ə 125.7 (153.7)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Bakı Musiqi Akademiyası</b>
+                        <hr>
+                        
+                        
+                        
+                        <p class="ml-4">Musiqi müəllimliyi (fortepiano, violin, viola, violonçel, kontrabas, arfa, fleyta, klarnet, saksafon, truba, trombon, qoboy, faqot, tuba, valtorna, zərb alətləri)  Ə 60.0 (69.5)</p>
+                        <p class="ml-4">İnstrumental ifaçılıq ( fortepiano, orqan, klavesin, violin, viola, violonçel, kontrabas, arfa, fleyta, klarnet, saksafon, truba, trombon, faqot, tuba, qoboy, valtorna, zərb alətləri, caz sənəti (fortepiano, kontrabas, saksofon, truba, zərb alətləri))  Ə  6/60.0 (8/87.2)</p>
+                        <p class="ml-4">İnstrumental ifaçılıq ( fortepiano, orqan, klavesin, violin, viola, violonçel, kontrabas, arfa, fleyta, klarnet, saksafon, truba, trombon, faqot, tuba, qoboy, valtorna, zərb alətləri, caz sənəti (fortepiano, kontrabas, saksofon, truba, zərb alətləri))  Q  6/51.0 (-), 8/191.1 (8/191.1)</p>
+                        <p class="ml-4">Solo oxuma Ə 6/60.0 (8/70.2)</p>
+                        <p class="ml-4">Dirijorluq (xor dirijorluğu, opera-simfonik orkest dirijorluğu, nəfəs alətləri orkesterinin dirijorluğu) 6/60.0 (9/65.6)</p>
+                        <p class="ml-4">Bəstəkarlıq Ə 6/60.0(9/179.9)</p>
+                        <p class="ml-4">Musiqişünaslıq Ə 6/60.0 (8/89.7)</p>
+                        <p class="ml-4">Musiqişünaslıq Q 8/95.3 (8/95.3)</p>
+                        <p class="ml-4">Estrada sənəti  Ə 6/60.0 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Milli Konservatoriyası </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Musiqi müəllimliyi  (fortepiano, tar, kamança, qanun, qarmon, saz, tütək, zurna, ney, balaban) Ə 60.0(69.7)</p>
+                        <p class="ml-4">Solo oxuma( milli vokal) Ə 6/60.0 (8/82.6)</p>
+                        <p class="ml-4">Solo oxuma (xanəndəlik)  Ə  6/60.0 (7/63.3)</p>
+                        <p class="ml-4">Solo oxuma(n xanəndəlik) Q 6/60.0 (8/70.1)</p>
+                        <p class="ml-4">Dirijorluq (xalq çalğı alətləri orkestrinin dirijoru, xor dirijorluğu) Ə 6/60.0 (8/94.9)</p>
+                        <p class="ml-4">Bəstəkarlıq Ə 6/60.0 (-)</p>
+                        <p class="ml-4">Musiqişünaslıq  Ə 6/60.0 (8/132.2)</p>
+                        <p class="ml-4">Musiqişünaslıq Q 6/91.6 (6/105.2)</p>
+                        <p class="ml-4">Estrada sənəti (fortepiano, akkordeon, klarnet, saksafon, fleyta, qoboy, truba, gitara, tar, kamança, balaban, tütək, ud, qanun, zərb alətləri) Ə 6/60.0 (8/64.1)</p>
+                        <p class="ml-4">Xalq çalğı alətləri ifaçılığı (tar, kamança, qanun, nağara, qarmon, saz, balaban, tütək, zurna, ney)  Ə 6/60.0 (9/89.7)</p>
+                        <p class="ml-4">Xalq çalğı alətləri ifaçılığı (tar, kamança, qanun, nağara, qarmon, saz, balaban, tütək, zurna, ney) Q 9/61.2 (9/104.7)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Musiqi müəllimliyi (fortepiano, violin, viola, gitara, klarnet, saksafon, fleyta, tar, kamança, qarmon, saz, qanun, nağara, balaban, zərb alətləri, vokal) Ə 60.0 (71.6)</p>
+                        <p class="ml-4">Təsviri incəsənət müəllimliyi Ə 96.0 (109.5)</p>
+                        <p class="ml-4">Dizayn Ə 116.1 (153.8)</p>
+                        <p class="ml-4">İnsturmental ifaçılıq ( fortepiano, violin, viola, gitara, klarnet, saksafon, zərb alətləri) Ə 8/74.7 (8/74.7)</p>
+                        <p class="ml-4">Solo oxuma( xanəndəlik) Ə 6/60.0 (8/60.6)</p>
+                        <p class="ml-4">Musiqişünaslıq Ə  6/60.0(8/68.1)</p>
+                        <p class="ml-4">Estrada sənəti Ə 6/60.0 (6/101.3)</p>
+                        <p class="ml-4">Xalq çalğı alətləri ifaçılığı (tar, kamança, saz, qanun, nağara, balaban) Ə 7/86.0 (9/89.3)</p>
+                        <p class="ml-4">Aktyor sənəti Ə 7/63.7 (7/109.3)</p>
+                        <p class="ml-4">Dekorativ sənət Ə 7/132.6 (8/129.7)</p>
+                        <p class="ml-4">Rejisorluq Ə 6/60.0 (7/72.3)</p>
+                        <p class="ml-4">Operator sənəti Ə   6/60.0 (6/159.2)</p>
+                        <p class="ml-4">Rəngarlıq Ə 8/115.5 (8/204.9)</p>
+                        <p class="ml-4">Qrafika Ə 8/71.6 (9/72.2)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <b class="ml-4">Azərbaycan Dövlət Rəssamlıq Akademiyası</b>
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Təsviri incəsənət müəllimiyi Ə 101.4 (106.6)</p>
+                        <p class="ml-4">Dizayn Ə  157.2 (157.2)</p>
+                        <p class="ml-4">Dekorativ sənət Ə  7/100.5 (8/130.3)</p>
+                        <p class="ml-4">Rəngkarlıq Ə  8/240.6 (8/240.6)</p>
+                        <p class="ml-4">Qrafika Ə 8/139.1 (8/187.5)</p>
+                        <p class="ml-4">Heykəltaraşlıq Ə 6/60.0 (8/133.7)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Bakı Xoreoqrafiya Akademiyası </b>
+                        <hr>
+                        
+                        <p class="ml-4">Rəqs müəllimliyi Ə 60.0 (65.4 )</p>
+                        <p class="ml-4">Xoreoqrafiya sənəti (klassik rəqs) Ə 6/60.0 (-)</p>
+                        <p class="ml-4">Xoreoqrafiya sənəti ( baletmeyster) Ə 6/60.0 (6/108.1)</p>
+                        <p class="ml-4">Xoreoqrafiya sənəti ( milli rəqs) Ə  6/60.0 (6/114.5)</p>
+                        <p class="ml-4">Xoreoqrafiya sənəti ( modern rəqs) Ə 6/60.0 (6/95.8)</p>
+                        <p class="ml-4">Xalq çalğl alətləri ifaçılığı ( tar, nağara,  qarmon) Ə 9/104.9 (9/104.9)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Dövlət Bədən Tərbiyəsi və İdman Akademiyası</b>
+                       <hr>
+                        <p class="ml-4">Fiziki tərbiyə və çağırışaqədərki hazırlıq ( qlzlar üçün fiziki tərbiyə müəllimliyi) Ə 96.8 (112.6)</p>
+                        <p class="ml-4">Bədən tərbiyəsi və idman Ə 83.9 (117.2)</p>
+                        <p class="ml-4">Məşqçi (idman növü üzrə) Ə 84.1 (107.2)</p>
+                        <p class="ml-4">Məşqçi ( idman növü üzrə) Q  84.3 (107.2)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4">  Naxçıvan Dövlət Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Fiziki tərbiyə və çağırışaqədərki hazırlıq (qızlar üçün fiziki tərbiyə müəllimliyi) Ə 86.6 (113.0)</p>
+                        <p class="ml-4">Musiqi müəllimliyi (fortepiano, violin, viola, violonçel, kontrabas, fleyta, klarnet, saksafon, truba, trombon, qoboy, valtorna, faqot, vokal, tar, kamança, qarmon, balaban, qanun, nağara, saz) Ə 60.0 (72.6)</p>
+                        <p class="ml-4">Təsviri incəsənət müəllimliyi Ə 68.3 (111.8)</p>
+                        <p class="ml-4">Bədən tərbiyəsi və idman Ə 61.0 (132.4)</p>
+                        <p class="ml-4">Bədən tərbiyəsi və idman Q 61.4 (-)</p>
+                        <p class="ml-4">İnstrumental ifaçılıq ( fortepiano) Ə 6/60.0 (8/81.8)</p>
+                        <p class="ml-4">İnstrumental ifaçılıq ( simli alətlər:violin, viola, violonçel, kontrabas) Ə 6/60.0 (-)</p>
+                        <p class="ml-4">İnstrumental ifaçılıq  (nəfəs alətləri: fleyta, klarnet, saksafon, truba, trombon, qoboy, valtorna, faqot)Ə  6/60.0 (-)</p>
+                        <p class="ml-4">Solo oxuma Ə 6/60.0 (6.69.1)</p>
+                        <p class="ml-4">Drijorluq ( xor dirijorluğu) Ə  6/60.0 (-)</p>
+                        <p class="ml-4">Bəstəkarlıq Ə  6/60.0 (-)</p>
+                        <p class="ml-4">Musiqişünaslıq Ə  6/60.0 (8/72.7)</p>
+                        <p class="ml-4">Musiqişünaslıq Q  6/60.0 (7/61.4)</p>
+                        <p class="ml-4"> Xalq çalğı alətləri ifaçılığı ( tar, kamança, qarmon, balaban, qanun, nağara, saz) Ə 6/60.0 (9/126.8)</p>
+                        <p class="ml-4">Aktyor sənəti Ə  6/60.0 (8/77.8)</p>
+                        <p class="ml-4">Rəngkarlıq Ə 6/60.0 (9/103.9)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Naxçıvan Müəllimlər İnstitutu </b>
+                        <hr>
+                        
+                        <p class="ml-4">Təsviri incəsənət müəllimliyi Ə</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <b class="ml-4"> Gəncə Dövlət Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Fiziki tərbiyə və çağırışaqədərki hazırlıq ( qızlar üçün fiziki tərbiyə müəllimliyi) Ə 106.0 (113.8)</p>
+                        <p class="ml-4">Musiqi müəllimliyi ( fortepiano, violin, klarnet, tar, kamança, saz, qarmon) Ə 68.3 (72.5)</p>
+                        <p class="ml-4">Təsviri incəsənət müəllimliyi Ə  90.8 (106.6)</p>
+                        <p class="ml-4">Bədən tərbiyəsi və idman Ə 65.8 (118.8)</p>
+                        <p class="ml-4">Bədən tərbiyəsi və idman Q 75.6 (148.4)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Azərbaycan Texnologiya Universiteti ( Gəncə şəhəri)</b>
+                        <hr>
+                        
+                        <p class="ml-4">Dizayn Ə 74.3 ( 157.4)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Sumqayıt Dövlət Universiteti </b>
+                        <hr>
+                        <p class="ml-4">Fiziki tərbiyə və çağırışaqədərki hazırlıq ( qızlar üçün fiziki tərbiyə müəllimliyi) Ə 83.7 (112.8)</p>
+                        <p class="ml-4">Musiqi müəllimliyi ( fortepiano, tar) Ə 60.0 (120.9)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Lənkəran Dövlət Universiteti </b>
+                        <hr>
+                        
+                        
+                        <p class="ml-4">Təsviri incəsənət müəllimliyi Ə  60.0 (111.2)</p>
+                        <p class="ml-4">Subbakalavrlar üzrə 51.0 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">Qərbi Kaspi Universiteti </b>
+                        <hr>
+                        
+                        <p class="ml-4">Dizayn Ə  99.3 (-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4"> Odlar Yurdu Universiteti</b>
+                        <hr>
+                        
+                        <p class="ml-4">Dizayn  Ə 89.1(-)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       <b class="ml-4">“Naxçıvan” Universiteti  ( Naxçıvan şəhəri) </b>
+                        
+                        <hr>
+                        
+                        <p class="ml-4">Bədən tərbiyəsi və idman Ə 60.0 (-)</p>
+                        <p class="ml-4">Bədən tərbiyəsi və idman Q 60.0 (-)</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container-fluid mt-4">
+      <div data-spy="scroll">
+          <div id="git1">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="img/qelem.jpg" alt="Card image">
+              <div class="card-img-overlay sumo">
+                <h5 class="card-title">BU ÖLKƏDƏ BİR İLKDİR</h5>
+                <p class="card-text">İxtisas seçməkdə çətinlik çəkirsiniz yaxud ixtisasların adlarına baxıb sonda nə iş görəcəyiniz sizə qaranlıq qalır ?
+                  Demək doğru yerdəsiniz ! 
+                  uniway.cf saytında siz  ixtisaslar, ixtisasın sizi gətirəcəyi son nöqtə, şəxsiyyətiniz hansı ixtisasa uyğun olması, ixtisasınıza uyğun olan hansı kitabları oxusanız sizə daha çox faydası olar kimi bir çox suallara ətraflı cavab tapacaqsınız. 
+                  Bir sözlə artıq Tarix fakultəsini bitirib taksi şoferi işləməyəcəksiniz.</p>
+                
+              </div>
+            </div>
+       </div>
+       </div>
+ </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+</html>
